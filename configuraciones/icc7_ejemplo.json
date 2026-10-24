@@ -1,0 +1,149 @@
+{
+ "formato": "organizador-horarios/configuracion-1",
+ "general": {
+  "nombre": "ICC 7.º semestre (2 grupos)",
+  "dias": 5
+ },
+ "bloques": [
+  {
+   "Inicio": "08:00",
+   "Fin": "09:40",
+   "Turno": "matutino"
+  },
+  {
+   "Inicio": "10:00",
+   "Fin": "11:40",
+   "Turno": "matutino"
+  },
+  {
+   "Inicio": "12:00",
+   "Fin": "13:40",
+   "Turno": "matutino"
+  },
+  {
+   "Inicio": "16:00",
+   "Fin": "17:40",
+   "Turno": "vespertino"
+  },
+  {
+   "Inicio": "18:00",
+   "Fin": "19:40",
+   "Turno": "vespertino"
+  },
+  {
+   "Inicio": "20:00",
+   "Fin": "21:40",
+   "Turno": "vespertino"
+  }
+ ],
+ "salones": [
+  {
+   "Salón": "Salón ICC-1",
+   "Edificio": null,
+   "Capacidad": 30
+  },
+  {
+   "Salón": "Salón ICC-2",
+   "Edificio": null,
+   "Capacidad": 25
+  }
+ ],
+ "profesores": [
+  {
+   "Profesor": "Dra. Elena Ruiz",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Mtro. Jorge Salas",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Mtra. Laura Peña",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Mtro. Andrés Vidal",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Dr. Martín Cano",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Ing. Sofía Lara",
+   "Disponible": null,
+   "Prefiere": null
+  }
+ ],
+ "grupos": [
+  {
+   "Carrera": "ICC",
+   "Semestre": 7,
+   "Grupo": "G1",
+   "Alumnos": 21,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 7,
+   "Grupo": "G2",
+   "Alumnos": 19,
+   "Turno": "vespertino"
+  }
+ ],
+ "materias": [
+  {
+   "Carrera": "ICC",
+   "Semestre": 7,
+   "Materia": "Cómputo Evolutivo",
+   "Profesor": "Dra. Elena Ruiz",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 7,
+   "Materia": "Tópicos Selectos de Química",
+   "Profesor": "Mtro. Jorge Salas",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 7,
+   "Materia": "Administración de Proyecto de Aplicación",
+   "Profesor": "Mtra. Laura Peña",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 7,
+   "Materia": "Ética para la Sociedad del Siglo XXI",
+   "Profesor": "Mtro. Andrés Vidal",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 7,
+   "Materia": "Procesamiento de Imágenes y Video",
+   "Profesor": "Dr. Martín Cano",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 7,
+   "Materia": "Cómputo en la Nube",
+   "Profesor": "Ing. Sofía Lara",
+   "Sesiones": 2,
+   "Alumnos": null
+  }
+ ]
+}

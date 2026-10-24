@@ -1,0 +1,10161 @@
+{
+ "formato": "organizador-horarios/configuracion-1",
+ "general": {
+  "nombre": "CETYS Tijuana, Universidad",
+  "dias": 5
+ },
+ "bloques": [
+  {
+   "Inicio": "08:00",
+   "Fin": "09:40",
+   "Turno": "matutino"
+  },
+  {
+   "Inicio": "10:00",
+   "Fin": "11:40",
+   "Turno": "matutino"
+  },
+  {
+   "Inicio": "12:00",
+   "Fin": "13:40",
+   "Turno": "matutino"
+  },
+  {
+   "Inicio": "16:00",
+   "Fin": "17:40",
+   "Turno": "vespertino"
+  },
+  {
+   "Inicio": "18:00",
+   "Fin": "19:40",
+   "Turno": "vespertino"
+  },
+  {
+   "Inicio": "20:00",
+   "Fin": "21:40",
+   "Turno": "vespertino"
+  }
+ ],
+ "salones": [
+  {
+   "Salón": "1201",
+   "Edificio": "E1",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "1202",
+   "Edificio": "E1",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "1203",
+   "Edificio": "E1",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "1204",
+   "Edificio": "E1",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "1205",
+   "Edificio": "E1",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "1206",
+   "Edificio": "E1",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "1302",
+   "Edificio": "E1",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "1303",
+   "Edificio": "E1",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "1304",
+   "Edificio": "E1",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "1305",
+   "Edificio": "E1",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "1306",
+   "Edificio": "E1",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "2201",
+   "Edificio": "E2",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "2202",
+   "Edificio": "E2",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "2203",
+   "Edificio": "E2",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "2204",
+   "Edificio": "E2",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "2205",
+   "Edificio": "E2",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "2206",
+   "Edificio": "E2",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "2207",
+   "Edificio": "E2",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "2208",
+   "Edificio": "E2",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "2209",
+   "Edificio": "E2",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "2210",
+   "Edificio": "E2",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "2301",
+   "Edificio": "E2",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "2302",
+   "Edificio": "E2",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "2303",
+   "Edificio": "E2",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "2304",
+   "Edificio": "E2",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "2305",
+   "Edificio": "E2",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "2306",
+   "Edificio": "E2",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "2307",
+   "Edificio": "E2",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "2308",
+   "Edificio": "E2",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "2309",
+   "Edificio": "E2",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "2310",
+   "Edificio": "E2",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "3101",
+   "Edificio": "E3",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "3102",
+   "Edificio": "E3",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "4103",
+   "Edificio": "E4",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "4201",
+   "Edificio": "E4",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "4202",
+   "Edificio": "E4",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "4203",
+   "Edificio": "E4",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "4204",
+   "Edificio": "E4",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "4301",
+   "Edificio": "E4",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "4302",
+   "Edificio": "E4",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "4303",
+   "Edificio": "E4",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "4304",
+   "Edificio": "E4",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "4305",
+   "Edificio": "E4",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "4306",
+   "Edificio": "E4",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "5101",
+   "Edificio": "E5",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "5102",
+   "Edificio": "E5",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "5103",
+   "Edificio": "E5",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "5104",
+   "Edificio": "E5",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "7101",
+   "Edificio": "E7",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "7102",
+   "Edificio": "E7",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "7201",
+   "Edificio": "E7",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "7202",
+   "Edificio": "E7",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "7203",
+   "Edificio": "E7",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "7204",
+   "Edificio": "E7",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "7205",
+   "Edificio": "E7",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "7206",
+   "Edificio": "E7",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "7301",
+   "Edificio": "E7",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "7302",
+   "Edificio": "E7",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "7303",
+   "Edificio": "E7",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "7304",
+   "Edificio": "E7",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "7305",
+   "Edificio": "E7",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "7306",
+   "Edificio": "E7",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "7307",
+   "Edificio": "E7",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "7308",
+   "Edificio": "E7",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "7309",
+   "Edificio": "E7",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "7310",
+   "Edificio": "E7",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "8001",
+   "Edificio": "E8",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "8002",
+   "Edificio": "E8",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "8003",
+   "Edificio": "E8",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "9101",
+   "Edificio": "E9",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "9102",
+   "Edificio": "E9",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "9103",
+   "Edificio": "E9",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "9104",
+   "Edificio": "E9",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "9105",
+   "Edificio": "E9",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "9106",
+   "Edificio": "E9",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "9107",
+   "Edificio": "E9",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "10301",
+   "Edificio": "E10 / CECE-CE",
+   "Capacidad": 80
+  },
+  {
+   "Salón": "10302",
+   "Edificio": "E10 / CECE-CE",
+   "Capacidad": 45
+  },
+  {
+   "Salón": "10303",
+   "Edificio": "E10 / CECE-CE",
+   "Capacidad": 80
+  },
+  {
+   "Salón": "10304",
+   "Edificio": "E10 / CECE-CE",
+   "Capacidad": 45
+  },
+  {
+   "Salón": "10305",
+   "Edificio": "E10 / CECE-CE",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "10306",
+   "Edificio": "E10 / CECE-CE",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "10307",
+   "Edificio": "E10 / CECE-CE",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "10308",
+   "Edificio": "E10 / CECE-CE",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "10401",
+   "Edificio": "E10 / CECE-CE",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "10402",
+   "Edificio": "E10 / CECE-CE",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "10403",
+   "Edificio": "E10 / CECE-CE",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "10404",
+   "Edificio": "E10 / CECE-CE",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "10405",
+   "Edificio": "E10 / CECE-CE",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "10406",
+   "Edificio": "E10 / CECE-CE",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "10407",
+   "Edificio": "E10 / CECE-CE",
+   "Capacidad": 30
+  },
+  {
+   "Salón": "10408",
+   "Edificio": "E10 / CECE-CE",
+   "Capacidad": 30
+  }
+ ],
+ "profesores": [
+  {
+   "Profesor": "Prof. MGDI-01",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. MGDI-02",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. LAE-01",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. LAE-02",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. LAE-03",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. LAE-04",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. LAE-05",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. LAE-06",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. LAE-07",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. LAE-08",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. LAE-09",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. LAE-10",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. LAE-11",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. LAE-12",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. LAE-13",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. LAE-14",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. LAE-15",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. LAE-16",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. CPIyF-01",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. CPIyF-02",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. CPIyF-03",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. CPIyF-04",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. CPIyF-05",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. CPIyF-06",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. CPIyF-07",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. CPIyF-08",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. CPIyF-09",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. CPIyF-10",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. CPIyF-11",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. CPIyF-12",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. CPIyF-13",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. CPIyF-14",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. CPIyF-15",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. CPIyF-16",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. INI-01",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. INI-02",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. INI-03",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. INI-04",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. INI-05",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. INI-06",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. INI-07",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. INI-08",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. INI-09",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. INI-10",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. INI-11",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. INI-12",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. INI-13",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. INI-14",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. INI-15",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. INI-16",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. LCI-01",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. LCI-02",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ME-01",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ME-02",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ME-03",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ME-04",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ME-05",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ME-06",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ME-07",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ME-08",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ME-09",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ME-10",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ME-11",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ME-12",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ME-13",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ME-14",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ME-15",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ME-16",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NI-01",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NI-02",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NI-03",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NI-04",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NI-05",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NI-06",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NI-07",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NI-08",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NI-09",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NI-10",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NI-11",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NI-12",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NI-13",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NI-14",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NI-15",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NI-16",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NIGP-01",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NIGP-02",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NIGP-03",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NIGP-04",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NIGP-05",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NIGP-06",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NIGP-07",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NIGP-08",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NIGP-09",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NIGP-10",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NIGP-11",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NIGP-12",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NIGP-13",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NIGP-14",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NIGP-15",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. NIGP-16",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IE-01",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IE-02",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICE-01",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICE-02",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICE-03",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICE-04",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICE-05",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICE-06",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICE-07",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICE-08",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICE-09",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICE-10",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICE-11",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICE-12",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICE-13",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICE-14",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICE-15",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICE-16",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICC-01",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICC-02",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICC-03",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICC-04",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICC-05",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICC-06",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICC-07",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICC-08",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICC-09",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICC-10",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICC-11",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICC-12",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICC-13",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ICC-14",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DGD-01",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DGD-02",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DGD-03",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DGD-04",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DGD-05",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DGD-06",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DGD-07",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DGD-08",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DGD-09",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DGD-10",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DGD-11",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DGD-12",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DGD-13",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DGD-14",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DGD-15",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DGD-16",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ER-01",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ER-02",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ER-03",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ER-04",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ER-05",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ER-06",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ER-07",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ER-08",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ER-09",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ER-10",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ER-11",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ER-12",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ER-13",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ER-14",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ER-15",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ER-16",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. II-01",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. II-02",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. II-03",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. II-04",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. II-05",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. II-06",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. II-07",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. II-08",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. II-09",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. II-10",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. II-11",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. II-12",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. II-13",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. II-14",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. II-15",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. II-16",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IIGP-01",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IIGP-02",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IIGP-03",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IIGP-04",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IIGP-05",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IIGP-06",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IIGP-07",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IIGP-08",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IIGP-09",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IIGP-10",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IIGP-11",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IIGP-12",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IIGP-13",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IIGP-14",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IIGP-15",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IIGP-16",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IM-01",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IM-02",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IM-03",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IM-04",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IM-05",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IM-06",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IM-07",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IM-08",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IM-09",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IM-10",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IM-11",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IM-12",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IM-13",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IM-14",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IM-15",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IM-16",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IMT-01",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IMT-02",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IMT-03",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IMT-04",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IMT-05",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IMT-06",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IMT-07",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IMT-08",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IMT-09",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IMT-10",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IMT-11",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IMT-12",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IMT-13",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IMT-14",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IMT-15",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. IMT-16",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ISW-01",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. ISW-02",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DER-01",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DER-02",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DER-03",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DER-04",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DER-05",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DER-06",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DER-07",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DER-08",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DER-09",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DER-10",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DER-11",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DER-12",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DER-13",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DER-14",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DER-15",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. DER-16",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSC-01",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSC-02",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSC-03",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSC-04",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSC-05",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSC-06",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSC-07",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSC-08",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSC-09",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSC-10",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSC-11",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSC-12",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSC-13",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSC-14",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSC-15",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSC-16",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSI-01",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSI-02",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSI-03",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSI-04",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSI-05",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSI-06",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSI-07",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSI-08",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSI-09",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSI-10",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSI-11",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSI-12",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSI-13",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSI-14",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSI-15",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSI-16",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSO-01",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSO-02",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSO-03",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSO-04",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSO-05",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSO-06",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSO-07",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSO-08",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSO-09",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSO-10",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSO-11",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSO-12",
+   "Disponible": "Lun-Jue",
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSO-13",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSO-14",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSO-15",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Prof. PSO-16",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Dra. Elena Ruiz",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Mtro. Jorge Salas",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Mtra. Laura Peña",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Mtro. Andrés Vidal",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Dr. Martín Cano",
+   "Disponible": null,
+   "Prefiere": null
+  },
+  {
+   "Profesor": "Ing. Sofía Lara",
+   "Disponible": null,
+   "Prefiere": null
+  }
+ ],
+ "grupos": [
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 17,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 2,
+   "Grupo": "A",
+   "Alumnos": 16,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 3,
+   "Grupo": "A",
+   "Alumnos": 15,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 4,
+   "Grupo": "A",
+   "Alumnos": 14,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 5,
+   "Grupo": "A",
+   "Alumnos": 13,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 6,
+   "Grupo": "A",
+   "Alumnos": 13,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 7,
+   "Grupo": "A",
+   "Alumnos": 12,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 8,
+   "Grupo": "A",
+   "Alumnos": 10,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 22,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 2,
+   "Grupo": "A",
+   "Alumnos": 21,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 3,
+   "Grupo": "A",
+   "Alumnos": 20,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 4,
+   "Grupo": "A",
+   "Alumnos": 19,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 5,
+   "Grupo": "A",
+   "Alumnos": 18,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 6,
+   "Grupo": "A",
+   "Alumnos": 16,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 7,
+   "Grupo": "A",
+   "Alumnos": 14,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 8,
+   "Grupo": "A",
+   "Alumnos": 11,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 14,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 2,
+   "Grupo": "A",
+   "Alumnos": 13,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 3,
+   "Grupo": "A",
+   "Alumnos": 12,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 4,
+   "Grupo": "A",
+   "Alumnos": 12,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 5,
+   "Grupo": "A",
+   "Alumnos": 11,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 6,
+   "Grupo": "A",
+   "Alumnos": 10,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 7,
+   "Grupo": "A",
+   "Alumnos": 9,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 8,
+   "Grupo": "A",
+   "Alumnos": 9,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 10,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 2,
+   "Grupo": "A",
+   "Alumnos": 9,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 3,
+   "Grupo": "A",
+   "Alumnos": 8,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 4,
+   "Grupo": "A",
+   "Alumnos": 8,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 5,
+   "Grupo": "A",
+   "Alumnos": 7,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 6,
+   "Grupo": "A",
+   "Alumnos": 7,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 7,
+   "Grupo": "A",
+   "Alumnos": 6,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 8,
+   "Grupo": "A",
+   "Alumnos": 5,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 20,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 2,
+   "Grupo": "A",
+   "Alumnos": 18,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 3,
+   "Grupo": "A",
+   "Alumnos": 17,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 4,
+   "Grupo": "A",
+   "Alumnos": 16,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 5,
+   "Grupo": "A",
+   "Alumnos": 15,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 6,
+   "Grupo": "A",
+   "Alumnos": 14,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 7,
+   "Grupo": "G1",
+   "Alumnos": 21,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 7,
+   "Grupo": "G2",
+   "Alumnos": 19,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 8,
+   "Grupo": "A",
+   "Alumnos": 12,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 12,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 2,
+   "Grupo": "A",
+   "Alumnos": 11,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 3,
+   "Grupo": "A",
+   "Alumnos": 10,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 4,
+   "Grupo": "A",
+   "Alumnos": 10,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 5,
+   "Grupo": "A",
+   "Alumnos": 10,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 6,
+   "Grupo": "A",
+   "Alumnos": 10,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 7,
+   "Grupo": "A",
+   "Alumnos": 9,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 8,
+   "Grupo": "A",
+   "Alumnos": 8,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "IE",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 18,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 22,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 2,
+   "Grupo": "A",
+   "Alumnos": 21,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 3,
+   "Grupo": "A",
+   "Alumnos": 20,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 4,
+   "Grupo": "A",
+   "Alumnos": 18,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 5,
+   "Grupo": "A",
+   "Alumnos": 17,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 6,
+   "Grupo": "A",
+   "Alumnos": 16,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 7,
+   "Grupo": "A",
+   "Alumnos": 14,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 8,
+   "Grupo": "A",
+   "Alumnos": 12,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 10,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 2,
+   "Grupo": "A",
+   "Alumnos": 9,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 3,
+   "Grupo": "A",
+   "Alumnos": 8,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 4,
+   "Grupo": "A",
+   "Alumnos": 8,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 5,
+   "Grupo": "A",
+   "Alumnos": 7,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 6,
+   "Grupo": "A",
+   "Alumnos": 7,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 7,
+   "Grupo": "A",
+   "Alumnos": 6,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 8,
+   "Grupo": "A",
+   "Alumnos": 5,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 15,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 2,
+   "Grupo": "A",
+   "Alumnos": 14,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 3,
+   "Grupo": "A",
+   "Alumnos": 13,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 4,
+   "Grupo": "A",
+   "Alumnos": 12,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 5,
+   "Grupo": "A",
+   "Alumnos": 11,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 6,
+   "Grupo": "A",
+   "Alumnos": 10,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 7,
+   "Grupo": "A",
+   "Alumnos": 9,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 8,
+   "Grupo": "A",
+   "Alumnos": 7,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 16,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 2,
+   "Grupo": "A",
+   "Alumnos": 15,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 3,
+   "Grupo": "A",
+   "Alumnos": 14,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 4,
+   "Grupo": "A",
+   "Alumnos": 13,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 5,
+   "Grupo": "A",
+   "Alumnos": 12,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 6,
+   "Grupo": "A",
+   "Alumnos": 11,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 7,
+   "Grupo": "A",
+   "Alumnos": 10,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 8,
+   "Grupo": "A",
+   "Alumnos": 9,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 12,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 2,
+   "Grupo": "A",
+   "Alumnos": 11,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 3,
+   "Grupo": "A",
+   "Alumnos": 10,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 4,
+   "Grupo": "A",
+   "Alumnos": 9,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 5,
+   "Grupo": "A",
+   "Alumnos": 8,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 6,
+   "Grupo": "A",
+   "Alumnos": 6,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 7,
+   "Grupo": "A",
+   "Alumnos": 5,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 8,
+   "Grupo": "A",
+   "Alumnos": 4,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "ISW",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 18,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "ISW",
+   "Semestre": 1,
+   "Grupo": "B",
+   "Alumnos": 17,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 19,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 2,
+   "Grupo": "A",
+   "Alumnos": 18,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 3,
+   "Grupo": "A",
+   "Alumnos": 17,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 4,
+   "Grupo": "A",
+   "Alumnos": 16,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 5,
+   "Grupo": "A",
+   "Alumnos": 15,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 6,
+   "Grupo": "A",
+   "Alumnos": 15,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 7,
+   "Grupo": "A",
+   "Alumnos": 14,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 8,
+   "Grupo": "A",
+   "Alumnos": 12,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "LCI",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 22,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 12,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 2,
+   "Grupo": "A",
+   "Alumnos": 11,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 3,
+   "Grupo": "A",
+   "Alumnos": 10,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 4,
+   "Grupo": "A",
+   "Alumnos": 9,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 5,
+   "Grupo": "A",
+   "Alumnos": 8,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 6,
+   "Grupo": "A",
+   "Alumnos": 8,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 7,
+   "Grupo": "A",
+   "Alumnos": 7,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 8,
+   "Grupo": "A",
+   "Alumnos": 5,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "MGDI",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 20,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 19,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 2,
+   "Grupo": "A",
+   "Alumnos": 18,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 3,
+   "Grupo": "A",
+   "Alumnos": 17,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 4,
+   "Grupo": "A",
+   "Alumnos": 16,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 5,
+   "Grupo": "A",
+   "Alumnos": 15,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 6,
+   "Grupo": "A",
+   "Alumnos": 14,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 7,
+   "Grupo": "A",
+   "Alumnos": 12,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 8,
+   "Grupo": "A",
+   "Alumnos": 9,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 10,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 2,
+   "Grupo": "A",
+   "Alumnos": 9,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 3,
+   "Grupo": "A",
+   "Alumnos": 9,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 4,
+   "Grupo": "A",
+   "Alumnos": 8,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 5,
+   "Grupo": "A",
+   "Alumnos": 7,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 6,
+   "Grupo": "A",
+   "Alumnos": 7,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 7,
+   "Grupo": "A",
+   "Alumnos": 6,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 8,
+   "Grupo": "A",
+   "Alumnos": 4,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 12,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 2,
+   "Grupo": "A",
+   "Alumnos": 11,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 3,
+   "Grupo": "A",
+   "Alumnos": 10,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 4,
+   "Grupo": "A",
+   "Alumnos": 10,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 5,
+   "Grupo": "A",
+   "Alumnos": 10,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 6,
+   "Grupo": "A",
+   "Alumnos": 10,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 7,
+   "Grupo": "A",
+   "Alumnos": 9,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 8,
+   "Grupo": "A",
+   "Alumnos": 8,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 8,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 2,
+   "Grupo": "A",
+   "Alumnos": 7,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 3,
+   "Grupo": "A",
+   "Alumnos": 6,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 4,
+   "Grupo": "A",
+   "Alumnos": 5,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 5,
+   "Grupo": "A",
+   "Alumnos": 5,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 6,
+   "Grupo": "A",
+   "Alumnos": 4,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 7,
+   "Grupo": "A",
+   "Alumnos": 3,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 8,
+   "Grupo": "A",
+   "Alumnos": 2,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 1,
+   "Grupo": "A",
+   "Alumnos": 11,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 2,
+   "Grupo": "A",
+   "Alumnos": 10,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 3,
+   "Grupo": "A",
+   "Alumnos": 9,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 4,
+   "Grupo": "A",
+   "Alumnos": 8,
+   "Turno": "matutino"
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 5,
+   "Grupo": "A",
+   "Alumnos": 8,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 6,
+   "Grupo": "A",
+   "Alumnos": 7,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 7,
+   "Grupo": "A",
+   "Alumnos": 6,
+   "Turno": "vespertino"
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 8,
+   "Grupo": "A",
+   "Alumnos": 6,
+   "Turno": "vespertino"
+  }
+ ],
+ "materias": [
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. CPIyF-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. CPIyF-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. CPIyF-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. CPIyF-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. CPIyF-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. CPIyF-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 2,
+   "Materia": "Materia 2.1",
+   "Profesor": "Prof. CPIyF-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 2,
+   "Materia": "Materia 2.2",
+   "Profesor": "Prof. CPIyF-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 2,
+   "Materia": "Materia 2.3",
+   "Profesor": "Prof. CPIyF-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 2,
+   "Materia": "Materia 2.4",
+   "Profesor": "Prof. CPIyF-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 2,
+   "Materia": "Materia 2.5",
+   "Profesor": "Prof. CPIyF-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 2,
+   "Materia": "Materia 2.6",
+   "Profesor": "Prof. CPIyF-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 3,
+   "Materia": "Materia 3.1",
+   "Profesor": "Prof. CPIyF-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 3,
+   "Materia": "Materia 3.2",
+   "Profesor": "Prof. CPIyF-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 3,
+   "Materia": "Materia 3.3",
+   "Profesor": "Prof. CPIyF-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 3,
+   "Materia": "Materia 3.4",
+   "Profesor": "Prof. CPIyF-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 3,
+   "Materia": "Materia 3.5",
+   "Profesor": "Prof. CPIyF-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 3,
+   "Materia": "Materia 3.6",
+   "Profesor": "Prof. CPIyF-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 4,
+   "Materia": "Materia 4.1",
+   "Profesor": "Prof. CPIyF-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 4,
+   "Materia": "Materia 4.2",
+   "Profesor": "Prof. CPIyF-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 4,
+   "Materia": "Materia 4.3",
+   "Profesor": "Prof. CPIyF-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 4,
+   "Materia": "Materia 4.4",
+   "Profesor": "Prof. CPIyF-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 4,
+   "Materia": "Materia 4.5",
+   "Profesor": "Prof. CPIyF-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 4,
+   "Materia": "Materia 4.6",
+   "Profesor": "Prof. CPIyF-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 5,
+   "Materia": "Materia 5.1",
+   "Profesor": "Prof. CPIyF-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 5,
+   "Materia": "Materia 5.2",
+   "Profesor": "Prof. CPIyF-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 5,
+   "Materia": "Materia 5.3",
+   "Profesor": "Prof. CPIyF-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 5,
+   "Materia": "Materia 5.4",
+   "Profesor": "Prof. CPIyF-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 5,
+   "Materia": "Materia 5.5",
+   "Profesor": "Prof. CPIyF-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 5,
+   "Materia": "Materia 5.6",
+   "Profesor": "Prof. CPIyF-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 6,
+   "Materia": "Materia 6.1",
+   "Profesor": "Prof. CPIyF-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 6,
+   "Materia": "Materia 6.2",
+   "Profesor": "Prof. CPIyF-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 6,
+   "Materia": "Materia 6.3",
+   "Profesor": "Prof. CPIyF-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 6,
+   "Materia": "Materia 6.4",
+   "Profesor": "Prof. CPIyF-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 6,
+   "Materia": "Materia 6.5",
+   "Profesor": "Prof. CPIyF-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 6,
+   "Materia": "Materia 6.6",
+   "Profesor": "Prof. CPIyF-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 7,
+   "Materia": "Materia 7.1",
+   "Profesor": "Prof. CPIyF-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 7,
+   "Materia": "Materia 7.2",
+   "Profesor": "Prof. CPIyF-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 7,
+   "Materia": "Materia 7.3",
+   "Profesor": "Prof. CPIyF-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 7,
+   "Materia": "Materia 7.4",
+   "Profesor": "Prof. CPIyF-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 7,
+   "Materia": "Materia 7.5",
+   "Profesor": "Prof. CPIyF-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 7,
+   "Materia": "Materia 7.6",
+   "Profesor": "Prof. CPIyF-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 8,
+   "Materia": "Materia 8.1",
+   "Profesor": "Prof. CPIyF-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 8,
+   "Materia": "Materia 8.2",
+   "Profesor": "Prof. CPIyF-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 8,
+   "Materia": "Materia 8.3",
+   "Profesor": "Prof. CPIyF-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 8,
+   "Materia": "Materia 8.4",
+   "Profesor": "Prof. CPIyF-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 8,
+   "Materia": "Materia 8.5",
+   "Profesor": "Prof. CPIyF-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "CPIyF",
+   "Semestre": 8,
+   "Materia": "Materia 8.6",
+   "Profesor": "Prof. CPIyF-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. DER-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. DER-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. DER-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. DER-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. DER-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. DER-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 2,
+   "Materia": "Materia 2.1",
+   "Profesor": "Prof. DER-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 2,
+   "Materia": "Materia 2.2",
+   "Profesor": "Prof. DER-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 2,
+   "Materia": "Materia 2.3",
+   "Profesor": "Prof. DER-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 2,
+   "Materia": "Materia 2.4",
+   "Profesor": "Prof. DER-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 2,
+   "Materia": "Materia 2.5",
+   "Profesor": "Prof. DER-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 2,
+   "Materia": "Materia 2.6",
+   "Profesor": "Prof. DER-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 3,
+   "Materia": "Materia 3.1",
+   "Profesor": "Prof. DER-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 3,
+   "Materia": "Materia 3.2",
+   "Profesor": "Prof. DER-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 3,
+   "Materia": "Materia 3.3",
+   "Profesor": "Prof. DER-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 3,
+   "Materia": "Materia 3.4",
+   "Profesor": "Prof. DER-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 3,
+   "Materia": "Materia 3.5",
+   "Profesor": "Prof. DER-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 3,
+   "Materia": "Materia 3.6",
+   "Profesor": "Prof. DER-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 4,
+   "Materia": "Materia 4.1",
+   "Profesor": "Prof. DER-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 4,
+   "Materia": "Materia 4.2",
+   "Profesor": "Prof. DER-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 4,
+   "Materia": "Materia 4.3",
+   "Profesor": "Prof. DER-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 4,
+   "Materia": "Materia 4.4",
+   "Profesor": "Prof. DER-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 4,
+   "Materia": "Materia 4.5",
+   "Profesor": "Prof. DER-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 4,
+   "Materia": "Materia 4.6",
+   "Profesor": "Prof. DER-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 5,
+   "Materia": "Materia 5.1",
+   "Profesor": "Prof. DER-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 5,
+   "Materia": "Materia 5.2",
+   "Profesor": "Prof. DER-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 5,
+   "Materia": "Materia 5.3",
+   "Profesor": "Prof. DER-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 5,
+   "Materia": "Materia 5.4",
+   "Profesor": "Prof. DER-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 5,
+   "Materia": "Materia 5.5",
+   "Profesor": "Prof. DER-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 5,
+   "Materia": "Materia 5.6",
+   "Profesor": "Prof. DER-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 6,
+   "Materia": "Materia 6.1",
+   "Profesor": "Prof. DER-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 6,
+   "Materia": "Materia 6.2",
+   "Profesor": "Prof. DER-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 6,
+   "Materia": "Materia 6.3",
+   "Profesor": "Prof. DER-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 6,
+   "Materia": "Materia 6.4",
+   "Profesor": "Prof. DER-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 6,
+   "Materia": "Materia 6.5",
+   "Profesor": "Prof. DER-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 6,
+   "Materia": "Materia 6.6",
+   "Profesor": "Prof. DER-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 7,
+   "Materia": "Materia 7.1",
+   "Profesor": "Prof. DER-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 7,
+   "Materia": "Materia 7.2",
+   "Profesor": "Prof. DER-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 7,
+   "Materia": "Materia 7.3",
+   "Profesor": "Prof. DER-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 7,
+   "Materia": "Materia 7.4",
+   "Profesor": "Prof. DER-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 7,
+   "Materia": "Materia 7.5",
+   "Profesor": "Prof. DER-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 7,
+   "Materia": "Materia 7.6",
+   "Profesor": "Prof. DER-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 8,
+   "Materia": "Materia 8.1",
+   "Profesor": "Prof. DER-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 8,
+   "Materia": "Materia 8.2",
+   "Profesor": "Prof. DER-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 8,
+   "Materia": "Materia 8.3",
+   "Profesor": "Prof. DER-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 8,
+   "Materia": "Materia 8.4",
+   "Profesor": "Prof. DER-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 8,
+   "Materia": "Materia 8.5",
+   "Profesor": "Prof. DER-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DER",
+   "Semestre": 8,
+   "Materia": "Materia 8.6",
+   "Profesor": "Prof. DER-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. DGD-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. DGD-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. DGD-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. DGD-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. DGD-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. DGD-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 2,
+   "Materia": "Materia 2.1",
+   "Profesor": "Prof. DGD-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 2,
+   "Materia": "Materia 2.2",
+   "Profesor": "Prof. DGD-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 2,
+   "Materia": "Materia 2.3",
+   "Profesor": "Prof. DGD-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 2,
+   "Materia": "Materia 2.4",
+   "Profesor": "Prof. DGD-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 2,
+   "Materia": "Materia 2.5",
+   "Profesor": "Prof. DGD-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 2,
+   "Materia": "Materia 2.6",
+   "Profesor": "Prof. DGD-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 3,
+   "Materia": "Materia 3.1",
+   "Profesor": "Prof. DGD-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 3,
+   "Materia": "Materia 3.2",
+   "Profesor": "Prof. DGD-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 3,
+   "Materia": "Materia 3.3",
+   "Profesor": "Prof. DGD-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 3,
+   "Materia": "Materia 3.4",
+   "Profesor": "Prof. DGD-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 3,
+   "Materia": "Materia 3.5",
+   "Profesor": "Prof. DGD-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 3,
+   "Materia": "Materia 3.6",
+   "Profesor": "Prof. DGD-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 4,
+   "Materia": "Materia 4.1",
+   "Profesor": "Prof. DGD-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 4,
+   "Materia": "Materia 4.2",
+   "Profesor": "Prof. DGD-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 4,
+   "Materia": "Materia 4.3",
+   "Profesor": "Prof. DGD-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 4,
+   "Materia": "Materia 4.4",
+   "Profesor": "Prof. DGD-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 4,
+   "Materia": "Materia 4.5",
+   "Profesor": "Prof. DGD-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 4,
+   "Materia": "Materia 4.6",
+   "Profesor": "Prof. DGD-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 5,
+   "Materia": "Materia 5.1",
+   "Profesor": "Prof. DGD-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 5,
+   "Materia": "Materia 5.2",
+   "Profesor": "Prof. DGD-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 5,
+   "Materia": "Materia 5.3",
+   "Profesor": "Prof. DGD-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 5,
+   "Materia": "Materia 5.4",
+   "Profesor": "Prof. DGD-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 5,
+   "Materia": "Materia 5.5",
+   "Profesor": "Prof. DGD-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 5,
+   "Materia": "Materia 5.6",
+   "Profesor": "Prof. DGD-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 6,
+   "Materia": "Materia 6.1",
+   "Profesor": "Prof. DGD-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 6,
+   "Materia": "Materia 6.2",
+   "Profesor": "Prof. DGD-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 6,
+   "Materia": "Materia 6.3",
+   "Profesor": "Prof. DGD-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 6,
+   "Materia": "Materia 6.4",
+   "Profesor": "Prof. DGD-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 6,
+   "Materia": "Materia 6.5",
+   "Profesor": "Prof. DGD-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 6,
+   "Materia": "Materia 6.6",
+   "Profesor": "Prof. DGD-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 7,
+   "Materia": "Materia 7.1",
+   "Profesor": "Prof. DGD-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 7,
+   "Materia": "Materia 7.2",
+   "Profesor": "Prof. DGD-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 7,
+   "Materia": "Materia 7.3",
+   "Profesor": "Prof. DGD-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 7,
+   "Materia": "Materia 7.4",
+   "Profesor": "Prof. DGD-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 7,
+   "Materia": "Materia 7.5",
+   "Profesor": "Prof. DGD-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 7,
+   "Materia": "Materia 7.6",
+   "Profesor": "Prof. DGD-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 8,
+   "Materia": "Materia 8.1",
+   "Profesor": "Prof. DGD-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 8,
+   "Materia": "Materia 8.2",
+   "Profesor": "Prof. DGD-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 8,
+   "Materia": "Materia 8.3",
+   "Profesor": "Prof. DGD-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 8,
+   "Materia": "Materia 8.4",
+   "Profesor": "Prof. DGD-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 8,
+   "Materia": "Materia 8.5",
+   "Profesor": "Prof. DGD-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "DGD",
+   "Semestre": 8,
+   "Materia": "Materia 8.6",
+   "Profesor": "Prof. DGD-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. ER-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. ER-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. ER-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. ER-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. ER-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. ER-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 2,
+   "Materia": "Materia 2.1",
+   "Profesor": "Prof. ER-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 2,
+   "Materia": "Materia 2.2",
+   "Profesor": "Prof. ER-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 2,
+   "Materia": "Materia 2.3",
+   "Profesor": "Prof. ER-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 2,
+   "Materia": "Materia 2.4",
+   "Profesor": "Prof. ER-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 2,
+   "Materia": "Materia 2.5",
+   "Profesor": "Prof. ER-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 2,
+   "Materia": "Materia 2.6",
+   "Profesor": "Prof. ER-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 3,
+   "Materia": "Materia 3.1",
+   "Profesor": "Prof. ER-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 3,
+   "Materia": "Materia 3.2",
+   "Profesor": "Prof. ER-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 3,
+   "Materia": "Materia 3.3",
+   "Profesor": "Prof. ER-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 3,
+   "Materia": "Materia 3.4",
+   "Profesor": "Prof. ER-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 3,
+   "Materia": "Materia 3.5",
+   "Profesor": "Prof. ER-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 3,
+   "Materia": "Materia 3.6",
+   "Profesor": "Prof. ER-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 4,
+   "Materia": "Materia 4.1",
+   "Profesor": "Prof. ER-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 4,
+   "Materia": "Materia 4.2",
+   "Profesor": "Prof. ER-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 4,
+   "Materia": "Materia 4.3",
+   "Profesor": "Prof. ER-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 4,
+   "Materia": "Materia 4.4",
+   "Profesor": "Prof. ER-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 4,
+   "Materia": "Materia 4.5",
+   "Profesor": "Prof. ER-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 4,
+   "Materia": "Materia 4.6",
+   "Profesor": "Prof. ER-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 5,
+   "Materia": "Materia 5.1",
+   "Profesor": "Prof. ER-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 5,
+   "Materia": "Materia 5.2",
+   "Profesor": "Prof. ER-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 5,
+   "Materia": "Materia 5.3",
+   "Profesor": "Prof. ER-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 5,
+   "Materia": "Materia 5.4",
+   "Profesor": "Prof. ER-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 5,
+   "Materia": "Materia 5.5",
+   "Profesor": "Prof. ER-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 5,
+   "Materia": "Materia 5.6",
+   "Profesor": "Prof. ER-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 6,
+   "Materia": "Materia 6.1",
+   "Profesor": "Prof. ER-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 6,
+   "Materia": "Materia 6.2",
+   "Profesor": "Prof. ER-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 6,
+   "Materia": "Materia 6.3",
+   "Profesor": "Prof. ER-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 6,
+   "Materia": "Materia 6.4",
+   "Profesor": "Prof. ER-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 6,
+   "Materia": "Materia 6.5",
+   "Profesor": "Prof. ER-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 6,
+   "Materia": "Materia 6.6",
+   "Profesor": "Prof. ER-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 7,
+   "Materia": "Materia 7.1",
+   "Profesor": "Prof. ER-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 7,
+   "Materia": "Materia 7.2",
+   "Profesor": "Prof. ER-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 7,
+   "Materia": "Materia 7.3",
+   "Profesor": "Prof. ER-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 7,
+   "Materia": "Materia 7.4",
+   "Profesor": "Prof. ER-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 7,
+   "Materia": "Materia 7.5",
+   "Profesor": "Prof. ER-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 7,
+   "Materia": "Materia 7.6",
+   "Profesor": "Prof. ER-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 8,
+   "Materia": "Materia 8.1",
+   "Profesor": "Prof. ER-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 8,
+   "Materia": "Materia 8.2",
+   "Profesor": "Prof. ER-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 8,
+   "Materia": "Materia 8.3",
+   "Profesor": "Prof. ER-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 8,
+   "Materia": "Materia 8.4",
+   "Profesor": "Prof. ER-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 8,
+   "Materia": "Materia 8.5",
+   "Profesor": "Prof. ER-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ER",
+   "Semestre": 8,
+   "Materia": "Materia 8.6",
+   "Profesor": "Prof. ER-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. ICC-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. ICC-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. ICC-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. ICC-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. ICC-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. ICC-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 2,
+   "Materia": "Materia 2.1",
+   "Profesor": "Prof. ICC-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 2,
+   "Materia": "Materia 2.2",
+   "Profesor": "Prof. ICC-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 2,
+   "Materia": "Materia 2.3",
+   "Profesor": "Prof. ICC-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 2,
+   "Materia": "Materia 2.4",
+   "Profesor": "Prof. ICC-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 2,
+   "Materia": "Materia 2.5",
+   "Profesor": "Prof. ICC-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 2,
+   "Materia": "Materia 2.6",
+   "Profesor": "Prof. ICC-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 3,
+   "Materia": "Materia 3.1",
+   "Profesor": "Prof. ICC-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 3,
+   "Materia": "Materia 3.2",
+   "Profesor": "Prof. ICC-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 3,
+   "Materia": "Materia 3.3",
+   "Profesor": "Prof. ICC-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 3,
+   "Materia": "Materia 3.4",
+   "Profesor": "Prof. ICC-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 3,
+   "Materia": "Materia 3.5",
+   "Profesor": "Prof. ICC-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 3,
+   "Materia": "Materia 3.6",
+   "Profesor": "Prof. ICC-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 4,
+   "Materia": "Materia 4.1",
+   "Profesor": "Prof. ICC-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 4,
+   "Materia": "Materia 4.2",
+   "Profesor": "Prof. ICC-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 4,
+   "Materia": "Materia 4.3",
+   "Profesor": "Prof. ICC-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 4,
+   "Materia": "Materia 4.4",
+   "Profesor": "Prof. ICC-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 4,
+   "Materia": "Materia 4.5",
+   "Profesor": "Prof. ICC-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 4,
+   "Materia": "Materia 4.6",
+   "Profesor": "Prof. ICC-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 5,
+   "Materia": "Materia 5.1",
+   "Profesor": "Prof. ICC-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 5,
+   "Materia": "Materia 5.2",
+   "Profesor": "Prof. ICC-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 5,
+   "Materia": "Materia 5.3",
+   "Profesor": "Prof. ICC-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 5,
+   "Materia": "Materia 5.4",
+   "Profesor": "Prof. ICC-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 5,
+   "Materia": "Materia 5.5",
+   "Profesor": "Prof. ICC-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 5,
+   "Materia": "Materia 5.6",
+   "Profesor": "Prof. ICC-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 6,
+   "Materia": "Materia 6.1",
+   "Profesor": "Prof. ICC-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 6,
+   "Materia": "Materia 6.2",
+   "Profesor": "Prof. ICC-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 6,
+   "Materia": "Materia 6.3",
+   "Profesor": "Prof. ICC-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 6,
+   "Materia": "Materia 6.4",
+   "Profesor": "Prof. ICC-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 6,
+   "Materia": "Materia 6.5",
+   "Profesor": "Prof. ICC-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 6,
+   "Materia": "Materia 6.6",
+   "Profesor": "Prof. ICC-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 7,
+   "Materia": "Cómputo Evolutivo",
+   "Profesor": "Dra. Elena Ruiz",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 7,
+   "Materia": "Tópicos Selectos de Química",
+   "Profesor": "Mtro. Jorge Salas",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 7,
+   "Materia": "Administración de Proyecto de Aplicación",
+   "Profesor": "Mtra. Laura Peña",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 7,
+   "Materia": "Ética para la Sociedad del Siglo XXI",
+   "Profesor": "Mtro. Andrés Vidal",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 7,
+   "Materia": "Procesamiento de Imágenes y Video",
+   "Profesor": "Dr. Martín Cano",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 7,
+   "Materia": "Cómputo en la Nube",
+   "Profesor": "Ing. Sofía Lara",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 8,
+   "Materia": "Materia 8.1",
+   "Profesor": "Prof. ICC-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 8,
+   "Materia": "Materia 8.2",
+   "Profesor": "Prof. ICC-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 8,
+   "Materia": "Materia 8.3",
+   "Profesor": "Prof. ICC-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 8,
+   "Materia": "Materia 8.4",
+   "Profesor": "Prof. ICC-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 8,
+   "Materia": "Materia 8.5",
+   "Profesor": "Prof. ICC-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICC",
+   "Semestre": 8,
+   "Materia": "Materia 8.6",
+   "Profesor": "Prof. ICC-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. ICE-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. ICE-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. ICE-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. ICE-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. ICE-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. ICE-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 2,
+   "Materia": "Materia 2.1",
+   "Profesor": "Prof. ICE-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 2,
+   "Materia": "Materia 2.2",
+   "Profesor": "Prof. ICE-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 2,
+   "Materia": "Materia 2.3",
+   "Profesor": "Prof. ICE-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 2,
+   "Materia": "Materia 2.4",
+   "Profesor": "Prof. ICE-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 2,
+   "Materia": "Materia 2.5",
+   "Profesor": "Prof. ICE-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 2,
+   "Materia": "Materia 2.6",
+   "Profesor": "Prof. ICE-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 3,
+   "Materia": "Materia 3.1",
+   "Profesor": "Prof. ICE-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 3,
+   "Materia": "Materia 3.2",
+   "Profesor": "Prof. ICE-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 3,
+   "Materia": "Materia 3.3",
+   "Profesor": "Prof. ICE-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 3,
+   "Materia": "Materia 3.4",
+   "Profesor": "Prof. ICE-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 3,
+   "Materia": "Materia 3.5",
+   "Profesor": "Prof. ICE-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 3,
+   "Materia": "Materia 3.6",
+   "Profesor": "Prof. ICE-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 4,
+   "Materia": "Materia 4.1",
+   "Profesor": "Prof. ICE-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 4,
+   "Materia": "Materia 4.2",
+   "Profesor": "Prof. ICE-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 4,
+   "Materia": "Materia 4.3",
+   "Profesor": "Prof. ICE-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 4,
+   "Materia": "Materia 4.4",
+   "Profesor": "Prof. ICE-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 4,
+   "Materia": "Materia 4.5",
+   "Profesor": "Prof. ICE-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 4,
+   "Materia": "Materia 4.6",
+   "Profesor": "Prof. ICE-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 5,
+   "Materia": "Materia 5.1",
+   "Profesor": "Prof. ICE-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 5,
+   "Materia": "Materia 5.2",
+   "Profesor": "Prof. ICE-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 5,
+   "Materia": "Materia 5.3",
+   "Profesor": "Prof. ICE-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 5,
+   "Materia": "Materia 5.4",
+   "Profesor": "Prof. ICE-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 5,
+   "Materia": "Materia 5.5",
+   "Profesor": "Prof. ICE-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 5,
+   "Materia": "Materia 5.6",
+   "Profesor": "Prof. ICE-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 6,
+   "Materia": "Materia 6.1",
+   "Profesor": "Prof. ICE-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 6,
+   "Materia": "Materia 6.2",
+   "Profesor": "Prof. ICE-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 6,
+   "Materia": "Materia 6.3",
+   "Profesor": "Prof. ICE-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 6,
+   "Materia": "Materia 6.4",
+   "Profesor": "Prof. ICE-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 6,
+   "Materia": "Materia 6.5",
+   "Profesor": "Prof. ICE-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 6,
+   "Materia": "Materia 6.6",
+   "Profesor": "Prof. ICE-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 7,
+   "Materia": "Materia 7.1",
+   "Profesor": "Prof. ICE-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 7,
+   "Materia": "Materia 7.2",
+   "Profesor": "Prof. ICE-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 7,
+   "Materia": "Materia 7.3",
+   "Profesor": "Prof. ICE-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 7,
+   "Materia": "Materia 7.4",
+   "Profesor": "Prof. ICE-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 7,
+   "Materia": "Materia 7.5",
+   "Profesor": "Prof. ICE-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 7,
+   "Materia": "Materia 7.6",
+   "Profesor": "Prof. ICE-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 8,
+   "Materia": "Materia 8.1",
+   "Profesor": "Prof. ICE-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 8,
+   "Materia": "Materia 8.2",
+   "Profesor": "Prof. ICE-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 8,
+   "Materia": "Materia 8.3",
+   "Profesor": "Prof. ICE-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 8,
+   "Materia": "Materia 8.4",
+   "Profesor": "Prof. ICE-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 8,
+   "Materia": "Materia 8.5",
+   "Profesor": "Prof. ICE-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ICE",
+   "Semestre": 8,
+   "Materia": "Materia 8.6",
+   "Profesor": "Prof. ICE-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IE",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. IE-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IE",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. IE-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IE",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. IE-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IE",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. IE-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IE",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. IE-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IE",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. IE-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. II-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. II-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. II-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. II-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. II-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. II-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 2,
+   "Materia": "Materia 2.1",
+   "Profesor": "Prof. II-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 2,
+   "Materia": "Materia 2.2",
+   "Profesor": "Prof. II-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 2,
+   "Materia": "Materia 2.3",
+   "Profesor": "Prof. II-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 2,
+   "Materia": "Materia 2.4",
+   "Profesor": "Prof. II-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 2,
+   "Materia": "Materia 2.5",
+   "Profesor": "Prof. II-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 2,
+   "Materia": "Materia 2.6",
+   "Profesor": "Prof. II-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 3,
+   "Materia": "Materia 3.1",
+   "Profesor": "Prof. II-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 3,
+   "Materia": "Materia 3.2",
+   "Profesor": "Prof. II-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 3,
+   "Materia": "Materia 3.3",
+   "Profesor": "Prof. II-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 3,
+   "Materia": "Materia 3.4",
+   "Profesor": "Prof. II-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 3,
+   "Materia": "Materia 3.5",
+   "Profesor": "Prof. II-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 3,
+   "Materia": "Materia 3.6",
+   "Profesor": "Prof. II-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 4,
+   "Materia": "Materia 4.1",
+   "Profesor": "Prof. II-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 4,
+   "Materia": "Materia 4.2",
+   "Profesor": "Prof. II-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 4,
+   "Materia": "Materia 4.3",
+   "Profesor": "Prof. II-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 4,
+   "Materia": "Materia 4.4",
+   "Profesor": "Prof. II-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 4,
+   "Materia": "Materia 4.5",
+   "Profesor": "Prof. II-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 4,
+   "Materia": "Materia 4.6",
+   "Profesor": "Prof. II-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 5,
+   "Materia": "Materia 5.1",
+   "Profesor": "Prof. II-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 5,
+   "Materia": "Materia 5.2",
+   "Profesor": "Prof. II-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 5,
+   "Materia": "Materia 5.3",
+   "Profesor": "Prof. II-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 5,
+   "Materia": "Materia 5.4",
+   "Profesor": "Prof. II-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 5,
+   "Materia": "Materia 5.5",
+   "Profesor": "Prof. II-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 5,
+   "Materia": "Materia 5.6",
+   "Profesor": "Prof. II-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 6,
+   "Materia": "Materia 6.1",
+   "Profesor": "Prof. II-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 6,
+   "Materia": "Materia 6.2",
+   "Profesor": "Prof. II-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 6,
+   "Materia": "Materia 6.3",
+   "Profesor": "Prof. II-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 6,
+   "Materia": "Materia 6.4",
+   "Profesor": "Prof. II-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 6,
+   "Materia": "Materia 6.5",
+   "Profesor": "Prof. II-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 6,
+   "Materia": "Materia 6.6",
+   "Profesor": "Prof. II-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 7,
+   "Materia": "Materia 7.1",
+   "Profesor": "Prof. II-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 7,
+   "Materia": "Materia 7.2",
+   "Profesor": "Prof. II-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 7,
+   "Materia": "Materia 7.3",
+   "Profesor": "Prof. II-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 7,
+   "Materia": "Materia 7.4",
+   "Profesor": "Prof. II-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 7,
+   "Materia": "Materia 7.5",
+   "Profesor": "Prof. II-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 7,
+   "Materia": "Materia 7.6",
+   "Profesor": "Prof. II-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 8,
+   "Materia": "Materia 8.1",
+   "Profesor": "Prof. II-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 8,
+   "Materia": "Materia 8.2",
+   "Profesor": "Prof. II-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 8,
+   "Materia": "Materia 8.3",
+   "Profesor": "Prof. II-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 8,
+   "Materia": "Materia 8.4",
+   "Profesor": "Prof. II-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 8,
+   "Materia": "Materia 8.5",
+   "Profesor": "Prof. II-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "II",
+   "Semestre": 8,
+   "Materia": "Materia 8.6",
+   "Profesor": "Prof. II-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. IIGP-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. IIGP-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. IIGP-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. IIGP-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. IIGP-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. IIGP-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 2,
+   "Materia": "Materia 2.1",
+   "Profesor": "Prof. IIGP-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 2,
+   "Materia": "Materia 2.2",
+   "Profesor": "Prof. IIGP-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 2,
+   "Materia": "Materia 2.3",
+   "Profesor": "Prof. IIGP-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 2,
+   "Materia": "Materia 2.4",
+   "Profesor": "Prof. IIGP-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 2,
+   "Materia": "Materia 2.5",
+   "Profesor": "Prof. IIGP-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 2,
+   "Materia": "Materia 2.6",
+   "Profesor": "Prof. IIGP-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 3,
+   "Materia": "Materia 3.1",
+   "Profesor": "Prof. IIGP-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 3,
+   "Materia": "Materia 3.2",
+   "Profesor": "Prof. IIGP-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 3,
+   "Materia": "Materia 3.3",
+   "Profesor": "Prof. IIGP-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 3,
+   "Materia": "Materia 3.4",
+   "Profesor": "Prof. IIGP-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 3,
+   "Materia": "Materia 3.5",
+   "Profesor": "Prof. IIGP-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 3,
+   "Materia": "Materia 3.6",
+   "Profesor": "Prof. IIGP-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 4,
+   "Materia": "Materia 4.1",
+   "Profesor": "Prof. IIGP-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 4,
+   "Materia": "Materia 4.2",
+   "Profesor": "Prof. IIGP-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 4,
+   "Materia": "Materia 4.3",
+   "Profesor": "Prof. IIGP-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 4,
+   "Materia": "Materia 4.4",
+   "Profesor": "Prof. IIGP-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 4,
+   "Materia": "Materia 4.5",
+   "Profesor": "Prof. IIGP-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 4,
+   "Materia": "Materia 4.6",
+   "Profesor": "Prof. IIGP-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 5,
+   "Materia": "Materia 5.1",
+   "Profesor": "Prof. IIGP-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 5,
+   "Materia": "Materia 5.2",
+   "Profesor": "Prof. IIGP-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 5,
+   "Materia": "Materia 5.3",
+   "Profesor": "Prof. IIGP-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 5,
+   "Materia": "Materia 5.4",
+   "Profesor": "Prof. IIGP-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 5,
+   "Materia": "Materia 5.5",
+   "Profesor": "Prof. IIGP-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 5,
+   "Materia": "Materia 5.6",
+   "Profesor": "Prof. IIGP-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 6,
+   "Materia": "Materia 6.1",
+   "Profesor": "Prof. IIGP-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 6,
+   "Materia": "Materia 6.2",
+   "Profesor": "Prof. IIGP-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 6,
+   "Materia": "Materia 6.3",
+   "Profesor": "Prof. IIGP-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 6,
+   "Materia": "Materia 6.4",
+   "Profesor": "Prof. IIGP-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 6,
+   "Materia": "Materia 6.5",
+   "Profesor": "Prof. IIGP-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 6,
+   "Materia": "Materia 6.6",
+   "Profesor": "Prof. IIGP-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 7,
+   "Materia": "Materia 7.1",
+   "Profesor": "Prof. IIGP-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 7,
+   "Materia": "Materia 7.2",
+   "Profesor": "Prof. IIGP-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 7,
+   "Materia": "Materia 7.3",
+   "Profesor": "Prof. IIGP-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 7,
+   "Materia": "Materia 7.4",
+   "Profesor": "Prof. IIGP-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 7,
+   "Materia": "Materia 7.5",
+   "Profesor": "Prof. IIGP-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 7,
+   "Materia": "Materia 7.6",
+   "Profesor": "Prof. IIGP-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 8,
+   "Materia": "Materia 8.1",
+   "Profesor": "Prof. IIGP-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 8,
+   "Materia": "Materia 8.2",
+   "Profesor": "Prof. IIGP-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 8,
+   "Materia": "Materia 8.3",
+   "Profesor": "Prof. IIGP-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 8,
+   "Materia": "Materia 8.4",
+   "Profesor": "Prof. IIGP-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 8,
+   "Materia": "Materia 8.5",
+   "Profesor": "Prof. IIGP-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IIGP",
+   "Semestre": 8,
+   "Materia": "Materia 8.6",
+   "Profesor": "Prof. IIGP-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. IM-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. IM-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. IM-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. IM-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. IM-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. IM-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 2,
+   "Materia": "Materia 2.1",
+   "Profesor": "Prof. IM-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 2,
+   "Materia": "Materia 2.2",
+   "Profesor": "Prof. IM-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 2,
+   "Materia": "Materia 2.3",
+   "Profesor": "Prof. IM-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 2,
+   "Materia": "Materia 2.4",
+   "Profesor": "Prof. IM-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 2,
+   "Materia": "Materia 2.5",
+   "Profesor": "Prof. IM-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 2,
+   "Materia": "Materia 2.6",
+   "Profesor": "Prof. IM-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 3,
+   "Materia": "Materia 3.1",
+   "Profesor": "Prof. IM-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 3,
+   "Materia": "Materia 3.2",
+   "Profesor": "Prof. IM-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 3,
+   "Materia": "Materia 3.3",
+   "Profesor": "Prof. IM-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 3,
+   "Materia": "Materia 3.4",
+   "Profesor": "Prof. IM-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 3,
+   "Materia": "Materia 3.5",
+   "Profesor": "Prof. IM-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 3,
+   "Materia": "Materia 3.6",
+   "Profesor": "Prof. IM-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 4,
+   "Materia": "Materia 4.1",
+   "Profesor": "Prof. IM-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 4,
+   "Materia": "Materia 4.2",
+   "Profesor": "Prof. IM-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 4,
+   "Materia": "Materia 4.3",
+   "Profesor": "Prof. IM-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 4,
+   "Materia": "Materia 4.4",
+   "Profesor": "Prof. IM-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 4,
+   "Materia": "Materia 4.5",
+   "Profesor": "Prof. IM-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 4,
+   "Materia": "Materia 4.6",
+   "Profesor": "Prof. IM-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 5,
+   "Materia": "Materia 5.1",
+   "Profesor": "Prof. IM-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 5,
+   "Materia": "Materia 5.2",
+   "Profesor": "Prof. IM-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 5,
+   "Materia": "Materia 5.3",
+   "Profesor": "Prof. IM-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 5,
+   "Materia": "Materia 5.4",
+   "Profesor": "Prof. IM-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 5,
+   "Materia": "Materia 5.5",
+   "Profesor": "Prof. IM-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 5,
+   "Materia": "Materia 5.6",
+   "Profesor": "Prof. IM-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 6,
+   "Materia": "Materia 6.1",
+   "Profesor": "Prof. IM-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 6,
+   "Materia": "Materia 6.2",
+   "Profesor": "Prof. IM-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 6,
+   "Materia": "Materia 6.3",
+   "Profesor": "Prof. IM-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 6,
+   "Materia": "Materia 6.4",
+   "Profesor": "Prof. IM-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 6,
+   "Materia": "Materia 6.5",
+   "Profesor": "Prof. IM-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 6,
+   "Materia": "Materia 6.6",
+   "Profesor": "Prof. IM-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 7,
+   "Materia": "Materia 7.1",
+   "Profesor": "Prof. IM-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 7,
+   "Materia": "Materia 7.2",
+   "Profesor": "Prof. IM-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 7,
+   "Materia": "Materia 7.3",
+   "Profesor": "Prof. IM-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 7,
+   "Materia": "Materia 7.4",
+   "Profesor": "Prof. IM-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 7,
+   "Materia": "Materia 7.5",
+   "Profesor": "Prof. IM-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 7,
+   "Materia": "Materia 7.6",
+   "Profesor": "Prof. IM-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 8,
+   "Materia": "Materia 8.1",
+   "Profesor": "Prof. IM-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 8,
+   "Materia": "Materia 8.2",
+   "Profesor": "Prof. IM-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 8,
+   "Materia": "Materia 8.3",
+   "Profesor": "Prof. IM-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 8,
+   "Materia": "Materia 8.4",
+   "Profesor": "Prof. IM-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 8,
+   "Materia": "Materia 8.5",
+   "Profesor": "Prof. IM-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IM",
+   "Semestre": 8,
+   "Materia": "Materia 8.6",
+   "Profesor": "Prof. IM-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. IMT-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. IMT-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. IMT-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. IMT-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. IMT-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. IMT-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 2,
+   "Materia": "Materia 2.1",
+   "Profesor": "Prof. IMT-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 2,
+   "Materia": "Materia 2.2",
+   "Profesor": "Prof. IMT-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 2,
+   "Materia": "Materia 2.3",
+   "Profesor": "Prof. IMT-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 2,
+   "Materia": "Materia 2.4",
+   "Profesor": "Prof. IMT-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 2,
+   "Materia": "Materia 2.5",
+   "Profesor": "Prof. IMT-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 2,
+   "Materia": "Materia 2.6",
+   "Profesor": "Prof. IMT-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 3,
+   "Materia": "Materia 3.1",
+   "Profesor": "Prof. IMT-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 3,
+   "Materia": "Materia 3.2",
+   "Profesor": "Prof. IMT-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 3,
+   "Materia": "Materia 3.3",
+   "Profesor": "Prof. IMT-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 3,
+   "Materia": "Materia 3.4",
+   "Profesor": "Prof. IMT-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 3,
+   "Materia": "Materia 3.5",
+   "Profesor": "Prof. IMT-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 3,
+   "Materia": "Materia 3.6",
+   "Profesor": "Prof. IMT-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 4,
+   "Materia": "Materia 4.1",
+   "Profesor": "Prof. IMT-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 4,
+   "Materia": "Materia 4.2",
+   "Profesor": "Prof. IMT-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 4,
+   "Materia": "Materia 4.3",
+   "Profesor": "Prof. IMT-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 4,
+   "Materia": "Materia 4.4",
+   "Profesor": "Prof. IMT-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 4,
+   "Materia": "Materia 4.5",
+   "Profesor": "Prof. IMT-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 4,
+   "Materia": "Materia 4.6",
+   "Profesor": "Prof. IMT-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 5,
+   "Materia": "Materia 5.1",
+   "Profesor": "Prof. IMT-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 5,
+   "Materia": "Materia 5.2",
+   "Profesor": "Prof. IMT-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 5,
+   "Materia": "Materia 5.3",
+   "Profesor": "Prof. IMT-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 5,
+   "Materia": "Materia 5.4",
+   "Profesor": "Prof. IMT-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 5,
+   "Materia": "Materia 5.5",
+   "Profesor": "Prof. IMT-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 5,
+   "Materia": "Materia 5.6",
+   "Profesor": "Prof. IMT-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 6,
+   "Materia": "Materia 6.1",
+   "Profesor": "Prof. IMT-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 6,
+   "Materia": "Materia 6.2",
+   "Profesor": "Prof. IMT-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 6,
+   "Materia": "Materia 6.3",
+   "Profesor": "Prof. IMT-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 6,
+   "Materia": "Materia 6.4",
+   "Profesor": "Prof. IMT-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 6,
+   "Materia": "Materia 6.5",
+   "Profesor": "Prof. IMT-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 6,
+   "Materia": "Materia 6.6",
+   "Profesor": "Prof. IMT-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 7,
+   "Materia": "Materia 7.1",
+   "Profesor": "Prof. IMT-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 7,
+   "Materia": "Materia 7.2",
+   "Profesor": "Prof. IMT-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 7,
+   "Materia": "Materia 7.3",
+   "Profesor": "Prof. IMT-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 7,
+   "Materia": "Materia 7.4",
+   "Profesor": "Prof. IMT-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 7,
+   "Materia": "Materia 7.5",
+   "Profesor": "Prof. IMT-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 7,
+   "Materia": "Materia 7.6",
+   "Profesor": "Prof. IMT-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 8,
+   "Materia": "Materia 8.1",
+   "Profesor": "Prof. IMT-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 8,
+   "Materia": "Materia 8.2",
+   "Profesor": "Prof. IMT-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 8,
+   "Materia": "Materia 8.3",
+   "Profesor": "Prof. IMT-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 8,
+   "Materia": "Materia 8.4",
+   "Profesor": "Prof. IMT-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 8,
+   "Materia": "Materia 8.5",
+   "Profesor": "Prof. IMT-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "IMT",
+   "Semestre": 8,
+   "Materia": "Materia 8.6",
+   "Profesor": "Prof. IMT-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. INI-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. INI-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. INI-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. INI-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. INI-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. INI-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 2,
+   "Materia": "Materia 2.1",
+   "Profesor": "Prof. INI-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 2,
+   "Materia": "Materia 2.2",
+   "Profesor": "Prof. INI-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 2,
+   "Materia": "Materia 2.3",
+   "Profesor": "Prof. INI-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 2,
+   "Materia": "Materia 2.4",
+   "Profesor": "Prof. INI-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 2,
+   "Materia": "Materia 2.5",
+   "Profesor": "Prof. INI-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 2,
+   "Materia": "Materia 2.6",
+   "Profesor": "Prof. INI-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 3,
+   "Materia": "Materia 3.1",
+   "Profesor": "Prof. INI-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 3,
+   "Materia": "Materia 3.2",
+   "Profesor": "Prof. INI-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 3,
+   "Materia": "Materia 3.3",
+   "Profesor": "Prof. INI-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 3,
+   "Materia": "Materia 3.4",
+   "Profesor": "Prof. INI-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 3,
+   "Materia": "Materia 3.5",
+   "Profesor": "Prof. INI-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 3,
+   "Materia": "Materia 3.6",
+   "Profesor": "Prof. INI-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 4,
+   "Materia": "Materia 4.1",
+   "Profesor": "Prof. INI-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 4,
+   "Materia": "Materia 4.2",
+   "Profesor": "Prof. INI-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 4,
+   "Materia": "Materia 4.3",
+   "Profesor": "Prof. INI-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 4,
+   "Materia": "Materia 4.4",
+   "Profesor": "Prof. INI-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 4,
+   "Materia": "Materia 4.5",
+   "Profesor": "Prof. INI-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 4,
+   "Materia": "Materia 4.6",
+   "Profesor": "Prof. INI-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 5,
+   "Materia": "Materia 5.1",
+   "Profesor": "Prof. INI-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 5,
+   "Materia": "Materia 5.2",
+   "Profesor": "Prof. INI-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 5,
+   "Materia": "Materia 5.3",
+   "Profesor": "Prof. INI-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 5,
+   "Materia": "Materia 5.4",
+   "Profesor": "Prof. INI-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 5,
+   "Materia": "Materia 5.5",
+   "Profesor": "Prof. INI-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 5,
+   "Materia": "Materia 5.6",
+   "Profesor": "Prof. INI-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 6,
+   "Materia": "Materia 6.1",
+   "Profesor": "Prof. INI-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 6,
+   "Materia": "Materia 6.2",
+   "Profesor": "Prof. INI-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 6,
+   "Materia": "Materia 6.3",
+   "Profesor": "Prof. INI-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 6,
+   "Materia": "Materia 6.4",
+   "Profesor": "Prof. INI-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 6,
+   "Materia": "Materia 6.5",
+   "Profesor": "Prof. INI-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 6,
+   "Materia": "Materia 6.6",
+   "Profesor": "Prof. INI-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 7,
+   "Materia": "Materia 7.1",
+   "Profesor": "Prof. INI-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 7,
+   "Materia": "Materia 7.2",
+   "Profesor": "Prof. INI-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 7,
+   "Materia": "Materia 7.3",
+   "Profesor": "Prof. INI-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 7,
+   "Materia": "Materia 7.4",
+   "Profesor": "Prof. INI-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 7,
+   "Materia": "Materia 7.5",
+   "Profesor": "Prof. INI-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 7,
+   "Materia": "Materia 7.6",
+   "Profesor": "Prof. INI-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 8,
+   "Materia": "Materia 8.1",
+   "Profesor": "Prof. INI-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 8,
+   "Materia": "Materia 8.2",
+   "Profesor": "Prof. INI-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 8,
+   "Materia": "Materia 8.3",
+   "Profesor": "Prof. INI-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 8,
+   "Materia": "Materia 8.4",
+   "Profesor": "Prof. INI-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 8,
+   "Materia": "Materia 8.5",
+   "Profesor": "Prof. INI-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "INI",
+   "Semestre": 8,
+   "Materia": "Materia 8.6",
+   "Profesor": "Prof. INI-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ISW",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. ISW-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ISW",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. ISW-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ISW",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. ISW-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ISW",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. ISW-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ISW",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. ISW-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ISW",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. ISW-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. LAE-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. LAE-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. LAE-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. LAE-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. LAE-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. LAE-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 2,
+   "Materia": "Materia 2.1",
+   "Profesor": "Prof. LAE-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 2,
+   "Materia": "Materia 2.2",
+   "Profesor": "Prof. LAE-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 2,
+   "Materia": "Materia 2.3",
+   "Profesor": "Prof. LAE-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 2,
+   "Materia": "Materia 2.4",
+   "Profesor": "Prof. LAE-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 2,
+   "Materia": "Materia 2.5",
+   "Profesor": "Prof. LAE-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 2,
+   "Materia": "Materia 2.6",
+   "Profesor": "Prof. LAE-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 3,
+   "Materia": "Materia 3.1",
+   "Profesor": "Prof. LAE-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 3,
+   "Materia": "Materia 3.2",
+   "Profesor": "Prof. LAE-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 3,
+   "Materia": "Materia 3.3",
+   "Profesor": "Prof. LAE-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 3,
+   "Materia": "Materia 3.4",
+   "Profesor": "Prof. LAE-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 3,
+   "Materia": "Materia 3.5",
+   "Profesor": "Prof. LAE-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 3,
+   "Materia": "Materia 3.6",
+   "Profesor": "Prof. LAE-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 4,
+   "Materia": "Materia 4.1",
+   "Profesor": "Prof. LAE-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 4,
+   "Materia": "Materia 4.2",
+   "Profesor": "Prof. LAE-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 4,
+   "Materia": "Materia 4.3",
+   "Profesor": "Prof. LAE-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 4,
+   "Materia": "Materia 4.4",
+   "Profesor": "Prof. LAE-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 4,
+   "Materia": "Materia 4.5",
+   "Profesor": "Prof. LAE-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 4,
+   "Materia": "Materia 4.6",
+   "Profesor": "Prof. LAE-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 5,
+   "Materia": "Materia 5.1",
+   "Profesor": "Prof. LAE-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 5,
+   "Materia": "Materia 5.2",
+   "Profesor": "Prof. LAE-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 5,
+   "Materia": "Materia 5.3",
+   "Profesor": "Prof. LAE-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 5,
+   "Materia": "Materia 5.4",
+   "Profesor": "Prof. LAE-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 5,
+   "Materia": "Materia 5.5",
+   "Profesor": "Prof. LAE-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 5,
+   "Materia": "Materia 5.6",
+   "Profesor": "Prof. LAE-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 6,
+   "Materia": "Materia 6.1",
+   "Profesor": "Prof. LAE-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 6,
+   "Materia": "Materia 6.2",
+   "Profesor": "Prof. LAE-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 6,
+   "Materia": "Materia 6.3",
+   "Profesor": "Prof. LAE-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 6,
+   "Materia": "Materia 6.4",
+   "Profesor": "Prof. LAE-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 6,
+   "Materia": "Materia 6.5",
+   "Profesor": "Prof. LAE-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 6,
+   "Materia": "Materia 6.6",
+   "Profesor": "Prof. LAE-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 7,
+   "Materia": "Materia 7.1",
+   "Profesor": "Prof. LAE-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 7,
+   "Materia": "Materia 7.2",
+   "Profesor": "Prof. LAE-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 7,
+   "Materia": "Materia 7.3",
+   "Profesor": "Prof. LAE-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 7,
+   "Materia": "Materia 7.4",
+   "Profesor": "Prof. LAE-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 7,
+   "Materia": "Materia 7.5",
+   "Profesor": "Prof. LAE-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 7,
+   "Materia": "Materia 7.6",
+   "Profesor": "Prof. LAE-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 8,
+   "Materia": "Materia 8.1",
+   "Profesor": "Prof. LAE-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 8,
+   "Materia": "Materia 8.2",
+   "Profesor": "Prof. LAE-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 8,
+   "Materia": "Materia 8.3",
+   "Profesor": "Prof. LAE-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 8,
+   "Materia": "Materia 8.4",
+   "Profesor": "Prof. LAE-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 8,
+   "Materia": "Materia 8.5",
+   "Profesor": "Prof. LAE-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LAE",
+   "Semestre": 8,
+   "Materia": "Materia 8.6",
+   "Profesor": "Prof. LAE-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LCI",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. LCI-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LCI",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. LCI-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LCI",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. LCI-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LCI",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. LCI-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LCI",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. LCI-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "LCI",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. LCI-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. ME-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. ME-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. ME-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. ME-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. ME-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. ME-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 2,
+   "Materia": "Materia 2.1",
+   "Profesor": "Prof. ME-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 2,
+   "Materia": "Materia 2.2",
+   "Profesor": "Prof. ME-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 2,
+   "Materia": "Materia 2.3",
+   "Profesor": "Prof. ME-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 2,
+   "Materia": "Materia 2.4",
+   "Profesor": "Prof. ME-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 2,
+   "Materia": "Materia 2.5",
+   "Profesor": "Prof. ME-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 2,
+   "Materia": "Materia 2.6",
+   "Profesor": "Prof. ME-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 3,
+   "Materia": "Materia 3.1",
+   "Profesor": "Prof. ME-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 3,
+   "Materia": "Materia 3.2",
+   "Profesor": "Prof. ME-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 3,
+   "Materia": "Materia 3.3",
+   "Profesor": "Prof. ME-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 3,
+   "Materia": "Materia 3.4",
+   "Profesor": "Prof. ME-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 3,
+   "Materia": "Materia 3.5",
+   "Profesor": "Prof. ME-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 3,
+   "Materia": "Materia 3.6",
+   "Profesor": "Prof. ME-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 4,
+   "Materia": "Materia 4.1",
+   "Profesor": "Prof. ME-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 4,
+   "Materia": "Materia 4.2",
+   "Profesor": "Prof. ME-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 4,
+   "Materia": "Materia 4.3",
+   "Profesor": "Prof. ME-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 4,
+   "Materia": "Materia 4.4",
+   "Profesor": "Prof. ME-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 4,
+   "Materia": "Materia 4.5",
+   "Profesor": "Prof. ME-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 4,
+   "Materia": "Materia 4.6",
+   "Profesor": "Prof. ME-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 5,
+   "Materia": "Materia 5.1",
+   "Profesor": "Prof. ME-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 5,
+   "Materia": "Materia 5.2",
+   "Profesor": "Prof. ME-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 5,
+   "Materia": "Materia 5.3",
+   "Profesor": "Prof. ME-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 5,
+   "Materia": "Materia 5.4",
+   "Profesor": "Prof. ME-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 5,
+   "Materia": "Materia 5.5",
+   "Profesor": "Prof. ME-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 5,
+   "Materia": "Materia 5.6",
+   "Profesor": "Prof. ME-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 6,
+   "Materia": "Materia 6.1",
+   "Profesor": "Prof. ME-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 6,
+   "Materia": "Materia 6.2",
+   "Profesor": "Prof. ME-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 6,
+   "Materia": "Materia 6.3",
+   "Profesor": "Prof. ME-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 6,
+   "Materia": "Materia 6.4",
+   "Profesor": "Prof. ME-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 6,
+   "Materia": "Materia 6.5",
+   "Profesor": "Prof. ME-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 6,
+   "Materia": "Materia 6.6",
+   "Profesor": "Prof. ME-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 7,
+   "Materia": "Materia 7.1",
+   "Profesor": "Prof. ME-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 7,
+   "Materia": "Materia 7.2",
+   "Profesor": "Prof. ME-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 7,
+   "Materia": "Materia 7.3",
+   "Profesor": "Prof. ME-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 7,
+   "Materia": "Materia 7.4",
+   "Profesor": "Prof. ME-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 7,
+   "Materia": "Materia 7.5",
+   "Profesor": "Prof. ME-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 7,
+   "Materia": "Materia 7.6",
+   "Profesor": "Prof. ME-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 8,
+   "Materia": "Materia 8.1",
+   "Profesor": "Prof. ME-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 8,
+   "Materia": "Materia 8.2",
+   "Profesor": "Prof. ME-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 8,
+   "Materia": "Materia 8.3",
+   "Profesor": "Prof. ME-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 8,
+   "Materia": "Materia 8.4",
+   "Profesor": "Prof. ME-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 8,
+   "Materia": "Materia 8.5",
+   "Profesor": "Prof. ME-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "ME",
+   "Semestre": 8,
+   "Materia": "Materia 8.6",
+   "Profesor": "Prof. ME-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "MGDI",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. MGDI-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "MGDI",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. MGDI-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "MGDI",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. MGDI-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "MGDI",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. MGDI-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "MGDI",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. MGDI-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "MGDI",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. MGDI-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. NI-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. NI-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. NI-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. NI-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. NI-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. NI-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 2,
+   "Materia": "Materia 2.1",
+   "Profesor": "Prof. NI-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 2,
+   "Materia": "Materia 2.2",
+   "Profesor": "Prof. NI-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 2,
+   "Materia": "Materia 2.3",
+   "Profesor": "Prof. NI-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 2,
+   "Materia": "Materia 2.4",
+   "Profesor": "Prof. NI-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 2,
+   "Materia": "Materia 2.5",
+   "Profesor": "Prof. NI-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 2,
+   "Materia": "Materia 2.6",
+   "Profesor": "Prof. NI-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 3,
+   "Materia": "Materia 3.1",
+   "Profesor": "Prof. NI-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 3,
+   "Materia": "Materia 3.2",
+   "Profesor": "Prof. NI-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 3,
+   "Materia": "Materia 3.3",
+   "Profesor": "Prof. NI-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 3,
+   "Materia": "Materia 3.4",
+   "Profesor": "Prof. NI-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 3,
+   "Materia": "Materia 3.5",
+   "Profesor": "Prof. NI-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 3,
+   "Materia": "Materia 3.6",
+   "Profesor": "Prof. NI-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 4,
+   "Materia": "Materia 4.1",
+   "Profesor": "Prof. NI-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 4,
+   "Materia": "Materia 4.2",
+   "Profesor": "Prof. NI-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 4,
+   "Materia": "Materia 4.3",
+   "Profesor": "Prof. NI-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 4,
+   "Materia": "Materia 4.4",
+   "Profesor": "Prof. NI-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 4,
+   "Materia": "Materia 4.5",
+   "Profesor": "Prof. NI-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 4,
+   "Materia": "Materia 4.6",
+   "Profesor": "Prof. NI-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 5,
+   "Materia": "Materia 5.1",
+   "Profesor": "Prof. NI-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 5,
+   "Materia": "Materia 5.2",
+   "Profesor": "Prof. NI-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 5,
+   "Materia": "Materia 5.3",
+   "Profesor": "Prof. NI-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 5,
+   "Materia": "Materia 5.4",
+   "Profesor": "Prof. NI-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 5,
+   "Materia": "Materia 5.5",
+   "Profesor": "Prof. NI-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 5,
+   "Materia": "Materia 5.6",
+   "Profesor": "Prof. NI-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 6,
+   "Materia": "Materia 6.1",
+   "Profesor": "Prof. NI-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 6,
+   "Materia": "Materia 6.2",
+   "Profesor": "Prof. NI-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 6,
+   "Materia": "Materia 6.3",
+   "Profesor": "Prof. NI-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 6,
+   "Materia": "Materia 6.4",
+   "Profesor": "Prof. NI-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 6,
+   "Materia": "Materia 6.5",
+   "Profesor": "Prof. NI-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 6,
+   "Materia": "Materia 6.6",
+   "Profesor": "Prof. NI-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 7,
+   "Materia": "Materia 7.1",
+   "Profesor": "Prof. NI-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 7,
+   "Materia": "Materia 7.2",
+   "Profesor": "Prof. NI-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 7,
+   "Materia": "Materia 7.3",
+   "Profesor": "Prof. NI-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 7,
+   "Materia": "Materia 7.4",
+   "Profesor": "Prof. NI-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 7,
+   "Materia": "Materia 7.5",
+   "Profesor": "Prof. NI-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 7,
+   "Materia": "Materia 7.6",
+   "Profesor": "Prof. NI-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 8,
+   "Materia": "Materia 8.1",
+   "Profesor": "Prof. NI-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 8,
+   "Materia": "Materia 8.2",
+   "Profesor": "Prof. NI-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 8,
+   "Materia": "Materia 8.3",
+   "Profesor": "Prof. NI-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 8,
+   "Materia": "Materia 8.4",
+   "Profesor": "Prof. NI-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 8,
+   "Materia": "Materia 8.5",
+   "Profesor": "Prof. NI-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NI",
+   "Semestre": 8,
+   "Materia": "Materia 8.6",
+   "Profesor": "Prof. NI-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. NIGP-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. NIGP-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. NIGP-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. NIGP-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. NIGP-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. NIGP-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 2,
+   "Materia": "Materia 2.1",
+   "Profesor": "Prof. NIGP-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 2,
+   "Materia": "Materia 2.2",
+   "Profesor": "Prof. NIGP-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 2,
+   "Materia": "Materia 2.3",
+   "Profesor": "Prof. NIGP-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 2,
+   "Materia": "Materia 2.4",
+   "Profesor": "Prof. NIGP-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 2,
+   "Materia": "Materia 2.5",
+   "Profesor": "Prof. NIGP-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 2,
+   "Materia": "Materia 2.6",
+   "Profesor": "Prof. NIGP-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 3,
+   "Materia": "Materia 3.1",
+   "Profesor": "Prof. NIGP-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 3,
+   "Materia": "Materia 3.2",
+   "Profesor": "Prof. NIGP-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 3,
+   "Materia": "Materia 3.3",
+   "Profesor": "Prof. NIGP-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 3,
+   "Materia": "Materia 3.4",
+   "Profesor": "Prof. NIGP-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 3,
+   "Materia": "Materia 3.5",
+   "Profesor": "Prof. NIGP-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 3,
+   "Materia": "Materia 3.6",
+   "Profesor": "Prof. NIGP-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 4,
+   "Materia": "Materia 4.1",
+   "Profesor": "Prof. NIGP-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 4,
+   "Materia": "Materia 4.2",
+   "Profesor": "Prof. NIGP-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 4,
+   "Materia": "Materia 4.3",
+   "Profesor": "Prof. NIGP-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 4,
+   "Materia": "Materia 4.4",
+   "Profesor": "Prof. NIGP-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 4,
+   "Materia": "Materia 4.5",
+   "Profesor": "Prof. NIGP-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 4,
+   "Materia": "Materia 4.6",
+   "Profesor": "Prof. NIGP-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 5,
+   "Materia": "Materia 5.1",
+   "Profesor": "Prof. NIGP-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 5,
+   "Materia": "Materia 5.2",
+   "Profesor": "Prof. NIGP-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 5,
+   "Materia": "Materia 5.3",
+   "Profesor": "Prof. NIGP-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 5,
+   "Materia": "Materia 5.4",
+   "Profesor": "Prof. NIGP-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 5,
+   "Materia": "Materia 5.5",
+   "Profesor": "Prof. NIGP-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 5,
+   "Materia": "Materia 5.6",
+   "Profesor": "Prof. NIGP-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 6,
+   "Materia": "Materia 6.1",
+   "Profesor": "Prof. NIGP-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 6,
+   "Materia": "Materia 6.2",
+   "Profesor": "Prof. NIGP-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 6,
+   "Materia": "Materia 6.3",
+   "Profesor": "Prof. NIGP-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 6,
+   "Materia": "Materia 6.4",
+   "Profesor": "Prof. NIGP-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 6,
+   "Materia": "Materia 6.5",
+   "Profesor": "Prof. NIGP-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 6,
+   "Materia": "Materia 6.6",
+   "Profesor": "Prof. NIGP-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 7,
+   "Materia": "Materia 7.1",
+   "Profesor": "Prof. NIGP-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 7,
+   "Materia": "Materia 7.2",
+   "Profesor": "Prof. NIGP-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 7,
+   "Materia": "Materia 7.3",
+   "Profesor": "Prof. NIGP-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 7,
+   "Materia": "Materia 7.4",
+   "Profesor": "Prof. NIGP-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 7,
+   "Materia": "Materia 7.5",
+   "Profesor": "Prof. NIGP-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 7,
+   "Materia": "Materia 7.6",
+   "Profesor": "Prof. NIGP-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 8,
+   "Materia": "Materia 8.1",
+   "Profesor": "Prof. NIGP-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 8,
+   "Materia": "Materia 8.2",
+   "Profesor": "Prof. NIGP-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 8,
+   "Materia": "Materia 8.3",
+   "Profesor": "Prof. NIGP-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 8,
+   "Materia": "Materia 8.4",
+   "Profesor": "Prof. NIGP-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 8,
+   "Materia": "Materia 8.5",
+   "Profesor": "Prof. NIGP-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "NIGP",
+   "Semestre": 8,
+   "Materia": "Materia 8.6",
+   "Profesor": "Prof. NIGP-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. PSC-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. PSC-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. PSC-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. PSC-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. PSC-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. PSC-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 2,
+   "Materia": "Materia 2.1",
+   "Profesor": "Prof. PSC-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 2,
+   "Materia": "Materia 2.2",
+   "Profesor": "Prof. PSC-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 2,
+   "Materia": "Materia 2.3",
+   "Profesor": "Prof. PSC-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 2,
+   "Materia": "Materia 2.4",
+   "Profesor": "Prof. PSC-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 2,
+   "Materia": "Materia 2.5",
+   "Profesor": "Prof. PSC-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 2,
+   "Materia": "Materia 2.6",
+   "Profesor": "Prof. PSC-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 3,
+   "Materia": "Materia 3.1",
+   "Profesor": "Prof. PSC-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 3,
+   "Materia": "Materia 3.2",
+   "Profesor": "Prof. PSC-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 3,
+   "Materia": "Materia 3.3",
+   "Profesor": "Prof. PSC-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 3,
+   "Materia": "Materia 3.4",
+   "Profesor": "Prof. PSC-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 3,
+   "Materia": "Materia 3.5",
+   "Profesor": "Prof. PSC-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 3,
+   "Materia": "Materia 3.6",
+   "Profesor": "Prof. PSC-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 4,
+   "Materia": "Materia 4.1",
+   "Profesor": "Prof. PSC-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 4,
+   "Materia": "Materia 4.2",
+   "Profesor": "Prof. PSC-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 4,
+   "Materia": "Materia 4.3",
+   "Profesor": "Prof. PSC-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 4,
+   "Materia": "Materia 4.4",
+   "Profesor": "Prof. PSC-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 4,
+   "Materia": "Materia 4.5",
+   "Profesor": "Prof. PSC-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 4,
+   "Materia": "Materia 4.6",
+   "Profesor": "Prof. PSC-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 5,
+   "Materia": "Materia 5.1",
+   "Profesor": "Prof. PSC-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 5,
+   "Materia": "Materia 5.2",
+   "Profesor": "Prof. PSC-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 5,
+   "Materia": "Materia 5.3",
+   "Profesor": "Prof. PSC-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 5,
+   "Materia": "Materia 5.4",
+   "Profesor": "Prof. PSC-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 5,
+   "Materia": "Materia 5.5",
+   "Profesor": "Prof. PSC-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 5,
+   "Materia": "Materia 5.6",
+   "Profesor": "Prof. PSC-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 6,
+   "Materia": "Materia 6.1",
+   "Profesor": "Prof. PSC-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 6,
+   "Materia": "Materia 6.2",
+   "Profesor": "Prof. PSC-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 6,
+   "Materia": "Materia 6.3",
+   "Profesor": "Prof. PSC-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 6,
+   "Materia": "Materia 6.4",
+   "Profesor": "Prof. PSC-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 6,
+   "Materia": "Materia 6.5",
+   "Profesor": "Prof. PSC-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 6,
+   "Materia": "Materia 6.6",
+   "Profesor": "Prof. PSC-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 7,
+   "Materia": "Materia 7.1",
+   "Profesor": "Prof. PSC-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 7,
+   "Materia": "Materia 7.2",
+   "Profesor": "Prof. PSC-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 7,
+   "Materia": "Materia 7.3",
+   "Profesor": "Prof. PSC-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 7,
+   "Materia": "Materia 7.4",
+   "Profesor": "Prof. PSC-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 7,
+   "Materia": "Materia 7.5",
+   "Profesor": "Prof. PSC-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 7,
+   "Materia": "Materia 7.6",
+   "Profesor": "Prof. PSC-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 8,
+   "Materia": "Materia 8.1",
+   "Profesor": "Prof. PSC-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 8,
+   "Materia": "Materia 8.2",
+   "Profesor": "Prof. PSC-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 8,
+   "Materia": "Materia 8.3",
+   "Profesor": "Prof. PSC-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 8,
+   "Materia": "Materia 8.4",
+   "Profesor": "Prof. PSC-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 8,
+   "Materia": "Materia 8.5",
+   "Profesor": "Prof. PSC-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSC",
+   "Semestre": 8,
+   "Materia": "Materia 8.6",
+   "Profesor": "Prof. PSC-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. PSI-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. PSI-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. PSI-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. PSI-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. PSI-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. PSI-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 2,
+   "Materia": "Materia 2.1",
+   "Profesor": "Prof. PSI-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 2,
+   "Materia": "Materia 2.2",
+   "Profesor": "Prof. PSI-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 2,
+   "Materia": "Materia 2.3",
+   "Profesor": "Prof. PSI-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 2,
+   "Materia": "Materia 2.4",
+   "Profesor": "Prof. PSI-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 2,
+   "Materia": "Materia 2.5",
+   "Profesor": "Prof. PSI-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 2,
+   "Materia": "Materia 2.6",
+   "Profesor": "Prof. PSI-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 3,
+   "Materia": "Materia 3.1",
+   "Profesor": "Prof. PSI-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 3,
+   "Materia": "Materia 3.2",
+   "Profesor": "Prof. PSI-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 3,
+   "Materia": "Materia 3.3",
+   "Profesor": "Prof. PSI-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 3,
+   "Materia": "Materia 3.4",
+   "Profesor": "Prof. PSI-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 3,
+   "Materia": "Materia 3.5",
+   "Profesor": "Prof. PSI-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 3,
+   "Materia": "Materia 3.6",
+   "Profesor": "Prof. PSI-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 4,
+   "Materia": "Materia 4.1",
+   "Profesor": "Prof. PSI-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 4,
+   "Materia": "Materia 4.2",
+   "Profesor": "Prof. PSI-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 4,
+   "Materia": "Materia 4.3",
+   "Profesor": "Prof. PSI-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 4,
+   "Materia": "Materia 4.4",
+   "Profesor": "Prof. PSI-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 4,
+   "Materia": "Materia 4.5",
+   "Profesor": "Prof. PSI-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 4,
+   "Materia": "Materia 4.6",
+   "Profesor": "Prof. PSI-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 5,
+   "Materia": "Materia 5.1",
+   "Profesor": "Prof. PSI-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 5,
+   "Materia": "Materia 5.2",
+   "Profesor": "Prof. PSI-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 5,
+   "Materia": "Materia 5.3",
+   "Profesor": "Prof. PSI-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 5,
+   "Materia": "Materia 5.4",
+   "Profesor": "Prof. PSI-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 5,
+   "Materia": "Materia 5.5",
+   "Profesor": "Prof. PSI-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 5,
+   "Materia": "Materia 5.6",
+   "Profesor": "Prof. PSI-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 6,
+   "Materia": "Materia 6.1",
+   "Profesor": "Prof. PSI-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 6,
+   "Materia": "Materia 6.2",
+   "Profesor": "Prof. PSI-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 6,
+   "Materia": "Materia 6.3",
+   "Profesor": "Prof. PSI-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 6,
+   "Materia": "Materia 6.4",
+   "Profesor": "Prof. PSI-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 6,
+   "Materia": "Materia 6.5",
+   "Profesor": "Prof. PSI-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 6,
+   "Materia": "Materia 6.6",
+   "Profesor": "Prof. PSI-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 7,
+   "Materia": "Materia 7.1",
+   "Profesor": "Prof. PSI-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 7,
+   "Materia": "Materia 7.2",
+   "Profesor": "Prof. PSI-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 7,
+   "Materia": "Materia 7.3",
+   "Profesor": "Prof. PSI-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 7,
+   "Materia": "Materia 7.4",
+   "Profesor": "Prof. PSI-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 7,
+   "Materia": "Materia 7.5",
+   "Profesor": "Prof. PSI-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 7,
+   "Materia": "Materia 7.6",
+   "Profesor": "Prof. PSI-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 8,
+   "Materia": "Materia 8.1",
+   "Profesor": "Prof. PSI-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 8,
+   "Materia": "Materia 8.2",
+   "Profesor": "Prof. PSI-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 8,
+   "Materia": "Materia 8.3",
+   "Profesor": "Prof. PSI-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 8,
+   "Materia": "Materia 8.4",
+   "Profesor": "Prof. PSI-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 8,
+   "Materia": "Materia 8.5",
+   "Profesor": "Prof. PSI-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSI",
+   "Semestre": 8,
+   "Materia": "Materia 8.6",
+   "Profesor": "Prof. PSI-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 1,
+   "Materia": "Materia 1.1",
+   "Profesor": "Prof. PSO-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 1,
+   "Materia": "Materia 1.2",
+   "Profesor": "Prof. PSO-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 1,
+   "Materia": "Materia 1.3",
+   "Profesor": "Prof. PSO-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 1,
+   "Materia": "Materia 1.4",
+   "Profesor": "Prof. PSO-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 1,
+   "Materia": "Materia 1.5",
+   "Profesor": "Prof. PSO-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 1,
+   "Materia": "Materia 1.6",
+   "Profesor": "Prof. PSO-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 2,
+   "Materia": "Materia 2.1",
+   "Profesor": "Prof. PSO-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 2,
+   "Materia": "Materia 2.2",
+   "Profesor": "Prof. PSO-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 2,
+   "Materia": "Materia 2.3",
+   "Profesor": "Prof. PSO-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 2,
+   "Materia": "Materia 2.4",
+   "Profesor": "Prof. PSO-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 2,
+   "Materia": "Materia 2.5",
+   "Profesor": "Prof. PSO-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 2,
+   "Materia": "Materia 2.6",
+   "Profesor": "Prof. PSO-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 3,
+   "Materia": "Materia 3.1",
+   "Profesor": "Prof. PSO-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 3,
+   "Materia": "Materia 3.2",
+   "Profesor": "Prof. PSO-12",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 3,
+   "Materia": "Materia 3.3",
+   "Profesor": "Prof. PSO-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 3,
+   "Materia": "Materia 3.4",
+   "Profesor": "Prof. PSO-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 3,
+   "Materia": "Materia 3.5",
+   "Profesor": "Prof. PSO-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 3,
+   "Materia": "Materia 3.6",
+   "Profesor": "Prof. PSO-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 4,
+   "Materia": "Materia 4.1",
+   "Profesor": "Prof. PSO-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 4,
+   "Materia": "Materia 4.2",
+   "Profesor": "Prof. PSO-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 4,
+   "Materia": "Materia 4.3",
+   "Profesor": "Prof. PSO-13",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 4,
+   "Materia": "Materia 4.4",
+   "Profesor": "Prof. PSO-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 4,
+   "Materia": "Materia 4.5",
+   "Profesor": "Prof. PSO-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 4,
+   "Materia": "Materia 4.6",
+   "Profesor": "Prof. PSO-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 5,
+   "Materia": "Materia 5.1",
+   "Profesor": "Prof. PSO-10",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 5,
+   "Materia": "Materia 5.2",
+   "Profesor": "Prof. PSO-01",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 5,
+   "Materia": "Materia 5.3",
+   "Profesor": "Prof. PSO-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 5,
+   "Materia": "Materia 5.4",
+   "Profesor": "Prof. PSO-08",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 5,
+   "Materia": "Materia 5.5",
+   "Profesor": "Prof. PSO-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 5,
+   "Materia": "Materia 5.6",
+   "Profesor": "Prof. PSO-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 6,
+   "Materia": "Materia 6.1",
+   "Profesor": "Prof. PSO-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 6,
+   "Materia": "Materia 6.2",
+   "Profesor": "Prof. PSO-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 6,
+   "Materia": "Materia 6.3",
+   "Profesor": "Prof. PSO-04",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 6,
+   "Materia": "Materia 6.4",
+   "Profesor": "Prof. PSO-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 6,
+   "Materia": "Materia 6.5",
+   "Profesor": "Prof. PSO-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 6,
+   "Materia": "Materia 6.6",
+   "Profesor": "Prof. PSO-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 7,
+   "Materia": "Materia 7.1",
+   "Profesor": "Prof. PSO-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 7,
+   "Materia": "Materia 7.2",
+   "Profesor": "Prof. PSO-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 7,
+   "Materia": "Materia 7.3",
+   "Profesor": "Prof. PSO-11",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 7,
+   "Materia": "Materia 7.4",
+   "Profesor": "Prof. PSO-14",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 7,
+   "Materia": "Materia 7.5",
+   "Profesor": "Prof. PSO-02",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 7,
+   "Materia": "Materia 7.6",
+   "Profesor": "Prof. PSO-09",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 8,
+   "Materia": "Materia 8.1",
+   "Profesor": "Prof. PSO-07",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 8,
+   "Materia": "Materia 8.2",
+   "Profesor": "Prof. PSO-03",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 8,
+   "Materia": "Materia 8.3",
+   "Profesor": "Prof. PSO-05",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 8,
+   "Materia": "Materia 8.4",
+   "Profesor": "Prof. PSO-15",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 8,
+   "Materia": "Materia 8.5",
+   "Profesor": "Prof. PSO-16",
+   "Sesiones": 2,
+   "Alumnos": null
+  },
+  {
+   "Carrera": "PSO",
+   "Semestre": 8,
+   "Materia": "Materia 8.6",
+   "Profesor": "Prof. PSO-06",
+   "Sesiones": 2,
+   "Alumnos": null
+  }
+ ]
+}

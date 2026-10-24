@@ -1,0 +1,43 @@
+{
+ "formato": "organizador-horarios/configuracion-1",
+ "general": {
+  "nombre": "Nueva configuración",
+  "dias": 5
+ },
+ "bloques": [
+  {
+   "Inicio": "08:00",
+   "Fin": "09:40",
+   "Turno": "matutino"
+  },
+  {
+   "Inicio": "10:00",
+   "Fin": "11:40",
+   "Turno": "matutino"
+  },
+  {
+   "Inicio": "12:00",
+   "Fin": "13:40",
+   "Turno": "matutino"
+  },
+  {
+   "Inicio": "16:00",
+   "Fin": "17:40",
+   "Turno": "vespertino"
+  },
+  {
+   "Inicio": "18:00",
+   "Fin": "19:40",
+   "Turno": "vespertino"
+  },
+  {
+   "Inicio": "20:00",
+   "Fin": "21:40",
+   "Turno": "vespertino"
+  }
+ ],
+ "salones": [],
+ "profesores": [],
+ "grupos": [],
+ "materias": []
+}
