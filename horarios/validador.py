@@ -1,6 +1,8 @@
-"""Validador independiente y distinto a propósito de evaluacion.py.
+"""Validador independiente de horarios.
 
-k eventos en el mismo recurso y bloque cuentan k - 1.
+Distinto a propósito de `evaluacion.py` (compara pares, O(n²)) para que un error
+del evaluador no se certifique a sí mismo. Un evento viola una restricción si
+choca con uno anterior, así k eventos en el mismo recurso cuentan k - 1.
 """
 
 from __future__ import annotations

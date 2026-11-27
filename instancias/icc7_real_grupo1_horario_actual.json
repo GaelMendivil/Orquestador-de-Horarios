@@ -1,0 +1,30 @@
+{
+  "instancia": "icc7_real_grupo1.json",
+  "salon": "Salón ICC-1",
+  "sesiones": {
+    "G1-CE": [
+      "Lun-4",
+      "Mié-4"
+    ],
+    "G1-QUI": [
+      "Mar-4",
+      "Mié-5"
+    ],
+    "G1-ADM": [
+      "Mar-5",
+      "Jue-4"
+    ],
+    "G1-ETI": [
+      "Lun-5",
+      "Jue-5"
+    ],
+    "G1-PIV": [
+      "Vie-4",
+      "Vie-5"
+    ],
+    "G1-NUB": [
+      "Lun-6",
+      "Mié-6"
+    ]
+  }
+}

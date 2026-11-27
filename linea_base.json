@@ -1,0 +1,35 @@
+{
+  "descripcion": "Línea base congelada del Avance 3 (D-037; recongelada el 16-nov-2026 por D-039/D-040: pesos nuevos y regla de inicio en el primer bloque). GA generacional con elitismo + reparación primer hueco. Todas las variantes del experimento usan esta configuración y sólo cambian 'reparacion'.",
+  "configuracion": "configuraciones/cetys_tijuana_aprox.json",
+  "ga": {
+    "tam_poblacion": 100,
+    "k_torneo": 2,
+    "p_cruce": 0.9,
+    "p_mutacion": null,
+    "elitismo": 2,
+    "max_evaluaciones": 20000,
+    "paciencia": 100,
+    "reparacion": "primer_hueco",
+    "pesos": {
+      "huecos": 1.0,
+      "preferencias": 1.0,
+      "carga_diaria": 1.0,
+      "pocas_clases": 3.0,
+      "mismo_dia": 0.1,
+      "inicio_tarde": 3.0
+    }
+  },
+  "semillas": "1-30",
+  "huellas_sha256_al_congelar": {
+    "horarios/modelo.py": "c30add2a25f89f28",
+    "horarios/entrada.py": "07f992b8248a05ff",
+    "horarios/configuracion.py": "217c520585aee796",
+    "horarios/dominios.py": "aaf844f3a4dac7f5",
+    "horarios/evaluacion.py": "34c72e36a3f773e0",
+    "horarios/operadores.py": "27208727f7836135",
+    "horarios/ga.py": "ee1be8bbeacd69e9",
+    "horarios/validador.py": "a0b3ec5d35e37684",
+    "configuraciones/cetys_tijuana_aprox.json": "0b266c07e3051016"
+  },
+  "nota_huellas": "Registro de cómo estaba el código al congelar. Los archivos pueden cambiar al agregar variantes nuevas; lo que NO puede cambiar es el resultado de la línea base, y eso lo vigila tests/test_linea_base.py."
+}

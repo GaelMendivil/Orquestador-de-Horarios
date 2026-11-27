@@ -1,6 +1,28 @@
-"""Carga y valida instancias JSON (ver instancias/ejemplo_minimo.json).
+"""Carga de instancias desde JSON, con validación de estructura.
 
-Los bloques se escriben "Día-n" con n desde 1 ("Lun-1").
+Formato (ejemplo completo en instancias/ejemplo_minimo.json):
+
+{
+  "nombre": "texto",
+  "dias": 5,
+  "bloques_por_dia": 6,
+  "etiquetas_bloques": ["07:00-08:40", ...],          (opcional)
+  "turnos": {"matutino": [1, 2, 3], "vespertino": [4, 5, 6]},  (opcional)
+  "sesiones_en_dias_distintos": true,                 (opcional, regla H6)
+  "salones":    [{"id": "A101", "capacidad": 40}, ...],
+  "profesores": [{"id": "P1",
+                  "disponibles": ["Lun-1", "Lun-2", ...],   (opcional)
+                  "preferidos":  ["Mar-3", ...]}, ...],     (opcional)
+  "secciones":  [{"id": "MAT-A", "materia": "Matemáticas", "profesor": "P1",
+                  "inscritos": 30, "sesiones": 2,
+                  "bloque_curricular": "ICC7-A",
+                  "turno": "vespertino",              (opcional)
+                  "permitir_mismo_dia": false,        (opcional, excepción a H6)
+                  "carrera": "ICC"}, ...]              (opcional, informativo)
+}
+
+Los bloques se escriben como "Día-n" con n empezando en 1 ("Lun-1" es el
+primer bloque del lunes), para que el archivo sea legible por una persona.
 """
 
 from __future__ import annotations
@@ -13,7 +35,7 @@ from .modelo import NOMBRES_DIAS, Instancia, Profesor, Salon, Seccion
 
 
 class ErrorInstancia(ValueError):
-    """Instancia mal formada; contiene todos los errores."""
+    """La instancia está mal formada. Contiene la lista de todos los errores."""
 
     def __init__(self, errores: list[str]):
         self.errores = errores
@@ -27,6 +49,8 @@ def cargar_instancia(ruta: str | Path) -> Instancia:
 
 
 def instancia_desde_dict(datos: dict[str, Any]) -> Instancia:
+    # Se acumulan todos los errores en lugar de fallar en el primero: quien
+    # captura datos a mano prefiere ver la lista completa de una vez.
     errores: list[str] = []
 
     dias = _entero(datos, "dias", errores, minimo=1, maximo=len(NOMBRES_DIAS))
@@ -129,10 +153,11 @@ def _entero(d, campo, errores, minimo=None, maximo=None, contexto="instancia"):
 
 
 def _bloques(lista, dias, bloques_por_dia, errores, pid) -> frozenset[int] | None:
+    """Convierte ["Lun-1", "Mar-3"] en índices de bloque t."""
     if lista is None:
         return None
     if not dias or not bloques_por_dia:
-        return None
+        return None  # el error de dias/bloques ya se reportó
     resultado = set()
     for texto in lista:
         try:

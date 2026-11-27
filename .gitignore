@@ -1,5 +1,4 @@
 # Tests
-tests/
 .pytest_cache/
 pytest-cache-files-*/
 .coverage
@@ -31,3 +30,7 @@ desktop.ini
 
 # Temporales de Excel
 ~$*.xlsx
+
+# Copias y salidas regenerables
+horarios.zip
+resultados/

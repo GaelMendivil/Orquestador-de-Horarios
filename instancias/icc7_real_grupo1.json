@@ -1,0 +1,114 @@
+{
+  "nombre": "ICC 7.º semestre, grupo 1 (real)",
+  "nota": "Datos reales de ICC 7.º semestre (horario de gael, oct-2026). Profesores inventados. Capacidades 30 y 25 dentro del rango típico de 25-30 que indicó gael. Procesamiento de Imágenes puede tener sus 2 sesiones el mismo día (confirmado por gael), con penalización blanda.",
+  "dias": 5,
+  "bloques_por_dia": 6,
+  "etiquetas_bloques": [
+    "08:00-09:40",
+    "10:00-11:40",
+    "12:00-13:40",
+    "16:00-17:40",
+    "18:00-19:40",
+    "20:00-21:40"
+  ],
+  "turnos": {
+    "matutino": [
+      1,
+      2,
+      3
+    ],
+    "vespertino": [
+      4,
+      5,
+      6
+    ]
+  },
+  "sesiones_en_dias_distintos": true,
+  "salones": [
+    {
+      "id": "Salón ICC-1",
+      "capacidad": 30
+    },
+    {
+      "id": "Salón ICC-2",
+      "capacidad": 25
+    }
+  ],
+  "profesores": [
+    {
+      "id": "Dra. Elena Ruiz"
+    },
+    {
+      "id": "Mtro. Jorge Salas"
+    },
+    {
+      "id": "Mtra. Laura Peña"
+    },
+    {
+      "id": "Mtro. Andrés Vidal"
+    },
+    {
+      "id": "Dr. Martín Cano"
+    },
+    {
+      "id": "Ing. Sofía Lara"
+    }
+  ],
+  "secciones": [
+    {
+      "id": "G1-CE",
+      "materia": "Cómputo Evolutivo",
+      "profesor": "Dra. Elena Ruiz",
+      "inscritos": 21,
+      "sesiones": 2,
+      "bloque_curricular": "ICC7-G1",
+      "turno": "vespertino"
+    },
+    {
+      "id": "G1-QUI",
+      "materia": "Tópicos Selectos de Química",
+      "profesor": "Mtro. Jorge Salas",
+      "inscritos": 21,
+      "sesiones": 2,
+      "bloque_curricular": "ICC7-G1",
+      "turno": "vespertino"
+    },
+    {
+      "id": "G1-ADM",
+      "materia": "Administración de Proyecto de Aplicación",
+      "profesor": "Mtra. Laura Peña",
+      "inscritos": 21,
+      "sesiones": 2,
+      "bloque_curricular": "ICC7-G1",
+      "turno": "vespertino"
+    },
+    {
+      "id": "G1-ETI",
+      "materia": "Ética para la Sociedad del Siglo XXI",
+      "profesor": "Mtro. Andrés Vidal",
+      "inscritos": 21,
+      "sesiones": 2,
+      "bloque_curricular": "ICC7-G1",
+      "turno": "vespertino"
+    },
+    {
+      "id": "G1-PIV",
+      "materia": "Procesamiento de Imágenes y Video",
+      "profesor": "Dr. Martín Cano",
+      "inscritos": 21,
+      "sesiones": 2,
+      "bloque_curricular": "ICC7-G1",
+      "turno": "vespertino",
+      "permitir_mismo_dia": true
+    },
+    {
+      "id": "G1-NUB",
+      "materia": "Cómputo en la Nube",
+      "profesor": "Ing. Sofía Lara",
+      "inscritos": 21,
+      "sesiones": 2,
+      "bloque_curricular": "ICC7-G1",
+      "turno": "vespertino"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-"""Presentación de horarios como tablas, independiente de la interfaz."""
+"""Presentación de horarios como tablas y CSV (independiente de la interfaz)."""
 
 from __future__ import annotations
 
@@ -22,7 +22,12 @@ def opciones_de_vista(inst: Instancia, vista: str) -> list[str]:
 
 
 def tabla_semanal(inst: Instancia, horario: Horario, vista: str, clave: str) -> dict:
-    """Cuadrícula bloques × días; los empalmes se separan con " / "."""
+    """Cuadrícula bloques × días para un grupo, profesor o salón.
+
+    Devuelve {"filas": [...etiquetas de bloque], "columnas": [...días],
+    "celdas": [[texto, ...], ...]}. Si dos sesiones caen en la misma celda
+    (un empalme), ambas aparecen separadas por " / ".
+    """
     filas = [inst.etiquetas_bloques[b] if inst.etiquetas_bloques else f"B{b + 1}"
              for b in range(inst.bloques_por_dia)]
     columnas = list(NOMBRES_DIAS[:inst.dias])
@@ -40,6 +45,7 @@ def tabla_semanal(inst: Instancia, horario: Horario, vista: str, clave: str) -> 
             continue
         celda = celdas[inst.bloque_de(t)][inst.dia_de(t)]
         celdas[inst.bloque_de(t)][inst.dia_de(t)] = f"{celda} / {texto}" if celda else texto
+    # Oculta los bloques fuera de los turnos de las secciones mostradas (si todas tienen turno).
     relevantes = [e.seccion for e in inst.eventos if _pertenece(inst, e, horario, vista, clave)] or inst.secciones
     if inst.turnos and all(s.turno for s in relevantes):
         visibles = sorted(set().union(*(inst.turnos[s.turno] for s in relevantes)))
@@ -58,6 +64,7 @@ def _pertenece(inst, e, horario, vista, clave) -> bool:
 
 
 def horario_csv(inst: Instancia, horario: Horario) -> str:
+    """Una fila por sesión, ordenada por grupo, día y bloque."""
     filas = []
     for e, (t, r) in zip(inst.eventos, horario):
         s = e.seccion
