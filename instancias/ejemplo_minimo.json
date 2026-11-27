@@ -1,0 +1,20 @@
+{
+  "nombre": "Ejemplo mínimo (análisis §4.3)",
+  "dias": 2,
+  "bloques_por_dia": 4,
+  "salones": [
+    {"id": "R1", "capacidad": 30},
+    {"id": "R2", "capacidad": 45}
+  ],
+  "profesores": [
+    {"id": "P1", "preferidos": ["Lun-1", "Lun-2", "Mar-1", "Mar-2"]},
+    {"id": "P2"}
+  ],
+  "secciones": [
+    {"id": "e1", "materia": "Matemáticas",  "profesor": "P1", "inscritos": 25, "sesiones": 1, "bloque_curricular": "G1"},
+    {"id": "e2", "materia": "Física",       "profesor": "P2", "inscritos": 25, "sesiones": 1, "bloque_curricular": "G1"},
+    {"id": "e3", "materia": "Programación", "profesor": "P1", "inscritos": 25, "sesiones": 1, "bloque_curricular": "G1"},
+    {"id": "e4", "materia": "Matemáticas",  "profesor": "P1", "inscritos": 40, "sesiones": 1, "bloque_curricular": "G2"},
+    {"id": "e5", "materia": "Química",      "profesor": "P2", "inscritos": 40, "sesiones": 1, "bloque_curricular": "G2"}
+  ]
+}

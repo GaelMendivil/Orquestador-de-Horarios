@@ -1,7 +1,7 @@
-"""GA generacional con elitismo.
+"""Motor del algoritmo genético (generacional con elitismo).
 
-Termina al agotar evaluaciones, al llegar a V = S = 0, o si el mejor es
-factible y no mejora en `paciencia` generaciones.
+Termina al agotar el presupuesto de evaluaciones, al llegar a V = 0 y S = 0, o
+cuando el mejor es factible y no mejora en `paciencia` generaciones.
 """
 
 from __future__ import annotations
@@ -13,11 +13,11 @@ from dataclasses import dataclass, field
 from .dominios import calcular_dominios, diagnosticar_inviabilidad
 from .evaluacion import Evaluacion, Evaluador, Gen
 from .modelo import Instancia
-from .operadores import (ReparadorPrimerHueco, cruce_por_tramos, inicializar, mutar,
+from .operadores import (ReparadorGuiado, ReparadorPrimerHueco, cruce_por_tramos, inicializar, mutar,
                          torneo, tramos_de_cruce)
 from .validador import Reporte, validar
 
-REPARACIONES = ("ninguna", "primer_hueco")
+REPARACIONES = ("ninguna", "primer_hueco", "guiada")
 
 
 @dataclass(frozen=True)
@@ -25,7 +25,7 @@ class ConfiguracionGA:
     tam_poblacion: int = 100
     k_torneo: int = 2
     p_cruce: float = 0.9
-    p_mutacion: float | None = None
+    p_mutacion: float | None = None  # por gen; None = 1 / número de eventos
     elitismo: int = 2
     max_evaluaciones: int = 20_000
     paciencia: int = 100
@@ -60,8 +60,8 @@ class RegistroGeneracion:
     mejor_v: int
     mejor_s: float
     media_v: float
-    factibles: float
-    diversidad: float
+    factibles: float     # fracción de la población con V = 0
+    diversidad: float    # fracción media de genes distintos al mejor
     segundos: float
 
 
@@ -87,7 +87,7 @@ class InstanciaInviable(Exception):
 
 def ejecutar(inst: Instancia, cfg: ConfiguracionGA = ConfiguracionGA(),
              al_terminar_generacion=None) -> Resultado:
-    """`al_terminar_generacion(registro)` permite mostrar el progreso."""
+    """Ejecuta el GA. `al_terminar_generacion(registro)` permite a la interfaz mostrar el progreso."""
     inicio = time.perf_counter()
     dominios = calcular_dominios(inst)
     motivos = diagnosticar_inviabilidad(inst, dominios)
@@ -99,10 +99,13 @@ def ejecutar(inst: Instancia, cfg: ConfiguracionGA = ConfiguracionGA(),
     tramos = tramos_de_cruce(inst)
     p_mut = cfg.p_mutacion if cfg.p_mutacion is not None else 1 / len(inst.eventos)
     reparar = ReparadorPrimerHueco(inst, dominios) if cfg.reparacion == "primer_hueco" else None
+    guiada = ReparadorGuiado(inst, dominios, evaluador) if cfg.reparacion == "guiada" else None
 
-    def nuevo_individuo(horario):
+    def nuevo_individuo(horario, marcados=frozenset()):
         if reparar is not None:
             horario = reparar(horario)
+        elif guiada is not None:
+            horario = guiada(horario, rng, marcados)
         return (horario, evaluador.evaluar(horario))
 
     poblacion = [nuevo_individuo(inicializar(dominios, rng)) for _ in range(cfg.tam_poblacion)]
@@ -132,8 +135,11 @@ def ejecutar(inst: Instancia, cfg: ConfiguracionGA = ConfiguracionGA(),
                 hijo = cruce_por_tramos(p1, torneo(poblacion, cfg.k_torneo, rng), tramos, rng)
             else:
                 hijo = list(p1)
-            hijo = mutar(hijo, dominios, tramos, p_mut, rng)
-            siguiente.append(nuevo_individuo(hijo))
+            mutado = mutar(hijo, dominios, tramos, p_mut, rng)
+            # La guiada recoloca también los genes que cambió la mutación.
+            marcados = (frozenset(i for i, (a, b) in enumerate(zip(hijo, mutado)) if a != b)
+                        if guiada is not None else frozenset())
+            siguiente.append(nuevo_individuo(mutado, marcados))
             if evals_factible is None and siguiente[-1][1].factible:
                 evals_factible = evaluador.evaluaciones
         poblacion = siguiente
@@ -157,7 +163,7 @@ def ejecutar(inst: Instancia, cfg: ConfiguracionGA = ConfiguracionGA(),
         evaluaciones_hasta_factible=evals_factible,
         segundos=time.perf_counter() - inicio,
         motivo_fin=motivo,
-        fallos_reparacion=reparar.fallos if reparar else 0,
+        fallos_reparacion=reparar.fallos if reparar else (guiada.fallos if guiada else 0),
         configuracion=cfg,
     )
 

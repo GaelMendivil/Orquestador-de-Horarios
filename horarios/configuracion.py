@@ -1,7 +1,8 @@
-"""Traduce la configuración en tablas a una instancia del GA.
+"""Configuración en tablas (la que captura la escuela) y su traducción a instancia.
 
-Cada materia de un (carrera, semestre) se abre una vez por grupo. Si tiene
-varios profesores ("Ana, Luis"), se reparten entre los grupos en orden.
+Cada materia de un (carrera, semestre) se abre una vez por cada grupo de ese
+(carrera, semestre); cada grupo es un bloque curricular. Varios profesores
+("Ana, Luis") se reparten entre los grupos en orden.
 """
 
 from __future__ import annotations
@@ -31,6 +32,8 @@ NOMBRES_TABLAS = {"bloques": "Bloques", "salones": "Salones", "profesores": "Pro
 GENERAL_POR_DEFECTO = {"nombre": "Mi escuela", "dias": 5}
 
 
+# --- Archivo ------------------------------------------------------------------
+
 def configuracion_vacia() -> dict:
     return {"formato": FORMATO, "general": dict(GENERAL_POR_DEFECTO), **{t: [] for t in TABLAS}}
 
@@ -40,6 +43,7 @@ def es_configuracion(datos: Any) -> bool:
 
 
 def normalizar(config: dict) -> dict:
+    """Copia con todas las tablas y columnas presentes, y celdas vacías como None."""
     salida = configuracion_vacia()
     salida["general"].update(config.get("general") or {})
     for tabla, columnas in COLUMNAS.items():
@@ -69,26 +73,36 @@ def carreras(config: dict) -> list[str]:
     return sorted({_texto(g.get("Carrera")) for g in config.get("grupos", [])} - {""})
 
 
+# --- Traducción a instancia ---------------------------------------------------
+
 def construir_instancia(config: dict, carreras: list[str] | None = None) -> tuple[dict, list[str]]:
-    """Devuelve (instancia, avisos); `carreras=None` incluye todas. Lanza ErrorInstancia."""
+    """Traduce la configuración a una instancia (dict) y devuelve también los avisos.
+
+    `carreras` limita la instancia a esas carreras (None = todas). Salones y
+    profesores se comparten entre carreras.
+    Lanza ErrorInstancia con TODOS los errores encontrados.
+    """
     config = normalizar(config)
     errores: list[str] = []
     avisos: list[str] = []
     filtro = None if carreras is None else set(carreras)
 
+    # General
     g = config["general"]
     dias = _entero(g.get("dias"))
     if dias is None or not 1 <= dias <= len(NOMBRES_DIAS):
         errores.append(f"General: los días de clase deben ser un número entre 1 y {len(NOMBRES_DIAS)}")
         dias = None
 
+    # Bloques y turnos
     etiquetas, horas = [], []
     turnos: dict[str, list[int]] = {}
-    nombres_turno: dict[str, str] = {}
+    nombres_turno: dict[str, str] = {}  # clave normalizada -> nombre como lo escribió la escuela
     for i, fila in enumerate(config["bloques"], 1):
         ctx = f"Bloques, fila {i}"
         inicio, fin = _texto(fila["Inicio"]), _texto(fila["Fin"])
         m_ini, m_fin = _minutos(inicio), _minutos(fin)
+        # Con Inicio y Fin deben ser horas; sólo con Inicio, es un nombre libre ("B1").
         if inicio and fin and (m_ini is None or m_fin is None):
             errores.append(f"{ctx}: las horas deben escribirse como 16:00")
         if m_ini is not None and m_fin is not None and m_fin <= m_ini:
@@ -103,6 +117,7 @@ def construir_instancia(config: dict, carreras: list[str] | None = None) -> tupl
         errores.append("Bloques: falta al menos un bloque del día")
     num_bloques = len(etiquetas)
 
+    # Salones
     salones = []
     for i, fila in enumerate(config["salones"], 1):
         ctx = f"Salones, fila {i}"
@@ -117,6 +132,7 @@ def construir_instancia(config: dict, carreras: list[str] | None = None) -> tupl
         errores.append("Salones: falta al menos un salón")
     _duplicados([s["id"] for s in salones if s["id"]], "Salones: el salón", errores)
 
+    # Profesores
     turnos_idx = {_clave(n): {b - 1 for b in bs} for n, bs in turnos.items()}
     profesores: dict[str, dict] = {}
     for i, fila in enumerate(config["profesores"], 1):
@@ -140,6 +156,7 @@ def construir_instancia(config: dict, carreras: list[str] | None = None) -> tupl
                 prof[campo] = [f"{NOMBRES_DIAS[t // num_bloques]}-{t % num_bloques + 1}" for t in sorted(bloques)]
         profesores[pid] = prof
 
+    # Grupos
     grupos: dict[tuple[str, str], list[dict]] = {}
     ids_grupo = []
     for i, fila in enumerate(config["grupos"], 1):
@@ -164,6 +181,7 @@ def construir_instancia(config: dict, carreras: list[str] | None = None) -> tupl
         })
     _duplicados([g for g in ids_grupo if g], "Grupos: el grupo", errores)
 
+    # Materias -> secciones
     secciones = []
     usados: dict[str, None] = {}
     faltantes: dict[str, None] = {}
@@ -230,7 +248,7 @@ def construir_instancia(config: dict, carreras: list[str] | None = None) -> tupl
         "bloques_por_dia": num_bloques,
         "etiquetas_bloques": etiquetas,
         "turnos": turnos,
-        "sesiones_en_dias_distintos": False,
+        "sesiones_en_dias_distintos": False,  # mismo día es sólo penalización blanda
         "salones": salones,
         "profesores": [profesores.get(p, {"id": p}) for p in usados],
         "secciones": secciones,
@@ -239,8 +257,11 @@ def construir_instancia(config: dict, carreras: list[str] | None = None) -> tupl
 
 
 def id_grupo(carrera: str, semestre: str, grupo: str) -> str:
+    """Nombre del bloque curricular, p. ej. "ICC 7 G1"."""
     return " ".join(p for p in (carrera, semestre, grupo) if p)
 
+
+# --- Disponibilidad en texto --------------------------------------------------
 
 _DIAS = {"lun": 0, "lunes": 0, "mar": 1, "martes": 1, "mie": 2, "miercoles": 2,
          "jue": 3, "jueves": 3, "vie": 4, "viernes": 4, "sab": 5, "sabado": 5,
@@ -251,10 +272,16 @@ EJEMPLOS_FRANJAS = "Ejemplos: 'vespertino', 'Lun-Vie 16:00-20:00', 'Lun,Mié 4-6
 
 def interpretar_franjas(texto: str, dias: int, horas: list[tuple[int | None, int | None]],
                         turnos: dict[str, set[int]]) -> frozenset[int] | None:
-    """Texto como "Lun-Jue 16:00-22:00; Vie matutino" -> bloques t (None si está vacío).
+    """Convierte un texto como "Lun-Jue 16:00-22:00; Vie matutino" en bloques t.
 
-    Cada parte: [días] [bloques]. Bloques: "todo", un turno, números ("4-6")
-    o horas ("16:00-20:00").
+    - Vacío: None (sin restricción).
+    - Partes separadas por ";". Cada parte: [días] [bloques].
+      Días: "Lun", "Lun-Vie", "Lun,Mié". Si se omiten, son todos los días.
+      Bloques: "todo", un turno ("vespertino"), números de bloque ("4-6", "1,3")
+      u horas ("16:00-20:00": los bloques que caben completos). Si se omiten,
+      es el día completo.
+    `horas` tiene (inicio, fin) en minutos por bloque del día; `turnos`, nombre
+    normalizado -> bloques del día (base 0).
     """
     texto = _clave(texto)
     if not texto:
@@ -276,6 +303,7 @@ def interpretar_franjas(texto: str, dias: int, horas: list[tuple[int | None, int
 
 
 def franjas_a_texto(bloques_t, dias: int, num_bloques: int) -> str:
+    """Inverso aproximado de interpretar_franjas, para mostrar disponibilidades."""
     if bloques_t is None:
         return ""
     por_dia = [sorted(t % num_bloques for t in bloques_t if t // num_bloques == d) for d in range(dias)]
@@ -288,6 +316,7 @@ def franjas_a_texto(bloques_t, dias: int, num_bloques: int) -> str:
 
 
 def _leer_dias(token: str, dias: int) -> list[int] | None:
+    """Días de un token como "lun-vie" o "lun,mie"; None si el token no son días."""
     resultado = []
     for pieza in token.split(","):
         extremos = pieza.split("-")
@@ -344,8 +373,16 @@ def _rangos(numeros: list[int]) -> str:
     return ",".join(partes)
 
 
+# --- Desde una instancia (JSON antiguo o generador) ---------------------------
+
 def configuracion_desde_instancia(datos: dict) -> dict:
-    """Convierte una instancia a tablas editables (cada bloque curricular es un grupo)."""
+    """Convierte una instancia (formato de entrada.py) a tablas editables.
+
+    Cada bloque curricular se vuelve un grupo cuya "Carrera" es el nombre del
+    bloque curricular; cada sección, una materia de ese grupo. Las secciones
+    con inscritos distintos a los del grupo conservan su número en la columna
+    Alumnos de Materias.
+    """
     dias, nb = datos["dias"], datos["bloques_por_dia"]
     etiquetas = datos.get("etiquetas_bloques") or []
     turno_de = {}
@@ -358,7 +395,7 @@ def configuracion_desde_instancia(datos: dict) -> dict:
         if b <= len(etiquetas):
             m = re.fullmatch(r"\s*(\d{1,2}:\d{2})\s*-\s*(\d{1,2}:\d{2})\s*", etiquetas[b - 1])
             inicio, fin = (m[1], m[2]) if m else (etiquetas[b - 1], "")
-        inicio = inicio or f"B{b}"
+        inicio = inicio or f"B{b}"  # un renglón vacío se ignoraría
         bloques.append({"Inicio": inicio or None, "Fin": fin or None, "Turno": turno_de.get(b)})
 
     def a_t(lista):
@@ -393,13 +430,15 @@ def configuracion_desde_instancia(datos: dict) -> dict:
     })
 
 
+# --- Utilidades de celdas -----------------------------------------------------
+
 def _limpiar(v):
     if v is None or isinstance(v, float) and math.isnan(v):
         return None
     if isinstance(v, str):
         v = v.strip()
         return v or None
-    if hasattr(v, "item"):
+    if hasattr(v, "item"):  # escalares de numpy/pandas
         return _limpiar(v.item())
     if isinstance(v, float) and v.is_integer():
         return int(v)
@@ -444,6 +483,7 @@ def _minutos(hora: str) -> int | None:
 
 
 def _clave(texto: str) -> str:
+    """Minúsculas y sin acentos, para comparar lo que escribe una persona."""
     sin = unicodedata.normalize("NFKD", str(texto)).encode("ascii", "ignore").decode()
     return re.sub(r"\s+", " ", sin.lower()).strip()
 

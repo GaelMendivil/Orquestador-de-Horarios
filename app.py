@@ -1,4 +1,7 @@
-"""Interfaz en Streamlit. Ejecutar: python -m streamlit run app.py"""
+"""Interfaz en Streamlit: configuración inicial y generación del horario.
+
+Ejecutar:  python -m streamlit run app.py
+"""
 
 import io
 import json
@@ -26,6 +29,7 @@ ss = st.session_state
 
 
 def cargar(config: dict) -> None:
+    """Reemplaza la configuración en edición. Las claves de los editores cambian para empezar limpios."""
     ss.config = normalizar(config)
     ss.version = ss.get("version", 0) + 1
     ss.vista_carrera = 0
@@ -44,13 +48,15 @@ with st.sidebar:
         st.rerun()
 
 
+# --- Pestaña 1: configuración inicial ------------------------------------------
+
 def a_tabla(tabla: str, filas: list[dict]) -> pd.DataFrame:
     df = pd.DataFrame(filas, columns=COLUMNAS[tabla])
     for col in ("Semestre", "Alumnos", "Capacidad", "Sesiones"):
         if col in df:
             df[col] = pd.to_numeric(df[col], errors="coerce").astype("Int64")
     for col in df.columns:
-        if df[col].dtype == object:
+        if df[col].dtype == object:  # texto: vacío en lugar de "None"
             df[col] = df[col].fillna("").astype(str)
     return df
 
@@ -75,9 +81,9 @@ def columnas_editor(tabla: str, turnos: list[str]) -> dict:
 
 
 def editor(tabla: str, turnos: list[str], carrera: str | None = None) -> list[dict]:
-    """Muestra la tabla (o las filas de una carrera) y devuelve la tabla completa."""
+    """Muestra la tabla (o sólo las filas de una carrera) y devuelve la tabla completa con los cambios."""
     base = ss.config[tabla]
-    dentro = lambda f: carrera is None or _texto(f["Carrera"]) == carrera
+    dentro = lambda f: carrera is None or _texto(f["Carrera"]) == carrera  # noqa: E731
     editado = st.data_editor(
         a_tabla(tabla, [f for f in base if dentro(f)]),
         key=f"ed_{tabla}_{ss.version}_{ss.vista_carrera}", num_rows="dynamic", hide_index=True,
@@ -91,6 +97,7 @@ def editor(tabla: str, turnos: list[str], carrera: str | None = None) -> list[di
 
 
 def cambiar_vista_carrera() -> None:
+    # Los editores se recrean al cambiar el filtro: antes se guarda lo editado.
     for tabla, filas in ss.actual.items():
         ss.config[tabla] = sorted(filas, key=lambda f: _texto(f["Carrera"])) if "Carrera" in COLUMNAS[tabla] else filas
     ss.vista_carrera += 1
@@ -171,6 +178,8 @@ with tab_conf:
                        file_name="configuracion.xlsx", width="stretch")
 
 
+# --- Barra lateral: parámetros del GA ------------------------------------------
+
 with st.sidebar:
     st.header("Algoritmo genético")
     c1, c2 = st.columns(2)
@@ -182,16 +191,21 @@ with st.sidebar:
         p_cruce = st.slider("Probabilidad de cruce", 0.0, 1.0, 0.9, 0.05)
         auto_pm = st.checkbox("Mutación automática (1 / nº de sesiones)", value=True)
         p_mut = None if auto_pm else st.slider("Probabilidad de mutación por gen", 0.0, 0.5, 0.05, 0.01)
-        reparacion = st.selectbox("Reparación", ["primer_hueco", "ninguna"],
-                                  format_func={"primer_hueco": "Primer hueco (PF01)", "ninguna": "Sin reparación"}.get)
+        reparacion = st.selectbox("Reparación", ["guiada", "primer_hueco", "ninguna"],
+                                  format_func={"guiada": "Guiada (Avance 3)", "primer_hueco": "Primer hueco (PF01)",
+                                               "ninguna": "Sin reparación"}.get)
         semilla = st.number_input("Semilla del GA", 0, 10_000, 1)
     with st.expander("Pesos de los criterios blandos"):
         st.caption("Costo de cada ocurrencia (1 = lo que cuesta una hora muerta).")
-        w_huecos = st.slider("Hora muerta", 0.0, 1.0, 1.0, 0.05)
-        w_pref = st.slider("Clase fuera de la preferencia del profesor", 0.0, 1.0, 1.0, 0.05)
-        w_carga = st.slider("Clase por encima del reparto parejo por día", 0.0, 1.0, 1.0, 0.05)
-        w_dia = st.slider("Dos sesiones de una materia el mismo día", 0.0, 1.0, 0.1, 0.05)
+        w_huecos = st.slider("Hora muerta", 0.0, 5.0, 1.0, 0.1)
+        w_pref = st.slider("Clase fuera de la preferencia del profesor", 0.0, 5.0, 1.0, 0.1)
+        w_carga = st.slider("Día con más clases que el reparto parejo", 0.0, 5.0, 1.0, 0.1)
+        w_pocas = st.slider("Día con menos clases que el reparto parejo (p. ej. una sola)", 0.0, 5.0, 3.0, 0.1)
+        w_dia = st.slider("Dos sesiones de una materia el mismo día", 0.0, 5.0, 0.1, 0.1)
+        w_sola = st.slider("Día que no empieza en el primer bloque del turno", 0.0, 5.0, 3.0, 0.1)
 
+
+# --- Pestaña 2: generar horario --------------------------------------------------
 
 def parar(mensaje: str | None = None) -> None:
     if mensaje:
@@ -236,14 +250,15 @@ with tab_gen:
     firma = json.dumps(datos, sort_keys=True, ensure_ascii=False)
 
     if correr:
-        if w_huecos + w_pref + w_carga + w_dia == 0:
+        if w_huecos + w_pref + w_carga + w_pocas + w_dia + w_sola == 0:
             parar("Al menos un criterio blando debe tener peso mayor que cero.")
         try:
             cfg = ConfiguracionGA(tam_poblacion=poblacion, k_torneo=min(k, poblacion), p_cruce=p_cruce,
                                   p_mutacion=p_mut, elitismo=min(elitismo, poblacion - 1),
                                   max_evaluaciones=max(presupuesto, poblacion), reparacion=reparacion,
                                   pesos={"huecos": w_huecos, "preferencias": w_pref,
-                                         "carga_diaria": w_carga, "mismo_dia": w_dia},
+                                         "carga_diaria": w_carga, "pocas_clases": w_pocas, "mismo_dia": w_dia,
+                                         "inicio_tarde": w_sola},
                                   semilla=semilla)
         except ValueError as exc:
             parar(str(exc))
@@ -283,9 +298,11 @@ with tab_gen:
     pref_total = sum(1 for e in inst.eventos if inst.profesores[e.seccion.profesor].preferidos is not None)
     c[3].metric("Sesiones en horario preferido",
                 f"{1 - ev.fuera_preferencia / pref_total:.0%}" if pref_total else "sin datos")
-    c[4].metric("Exceso de clases por día", ev.exceso_diario,
-                help="Por grupo y día, sesiones que exceden techo(sesiones del grupo / días)")
-    st.caption(f"Materias con sus dos sesiones el mismo día (penalización leve): {ev.mismo_dia}. "
+    c[4].metric("Desbalance de clases por día", ev.exceso_diario + ev.faltante_diario,
+                help="Por grupo y día, sesiones por encima de techo(n/días) más las que faltan para "
+                     "llegar a piso(n/días)")
+    st.caption(f"Días que no empiezan en el primer bloque: {ev.inicio_tarde}. "
+               f"Materias con sus dos sesiones el mismo día (penalización leve): {ev.mismo_dia}. "
                f"{r.evaluaciones:,} evaluaciones en {r.segundos:.1f} s. Terminó por: {r.motivo_fin}. "
                + (f"Primer horario sin empalmes tras {r.evaluaciones_hasta_factible:,} evaluaciones."
                   if r.evaluaciones_hasta_factible else "No se alcanzó un horario sin empalmes."))
@@ -312,6 +329,7 @@ with tab_gen:
 
     with t_conv:
         hist = pd.DataFrame([asdict(h) for h in r.historial]).set_index("evaluaciones")
+        # Gráficas separadas: V y S tienen escalas distintas.
         st.subheader("Violaciones duras del mejor horario (V)")
         st.line_chart(hist["mejor_v"], x_label="Evaluaciones", y_label="V")
         st.caption("Empalmes del mejor horario encontrado hasta ese momento. Debe bajar hasta 0; si se queda "

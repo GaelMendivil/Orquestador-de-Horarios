@@ -1,4 +1,4 @@
-"""Lee y escribe la configuración como libro de Excel (una hoja por tabla)."""
+"""Configuración en Excel: una hoja por tabla de la app, con las mismas columnas."""
 
 from __future__ import annotations
 
@@ -54,8 +54,10 @@ FILAS_GENERAL = (
 )
 
 
+# --- Escritura ----------------------------------------------------------------
+
 def crear_plantilla(config: dict | None, ruta) -> None:
-    """`ruta` puede ser un archivo abierto."""
+    """Escribe la configuración (o una vacía) como libro de Excel. `ruta` puede ser un archivo abierto."""
     config = normalizar(config or configuracion_vacia())
     wb = Workbook()
     _hoja_instrucciones(wb.active)
@@ -81,7 +83,7 @@ def crear_plantilla(config: dict | None, ruta) -> None:
                 celda = ws.cell(i, j, valor)
                 celda.font = Font(name=FUENTE)
                 if col in ("Inicio", "Fin"):
-                    celda.number_format = "@"
+                    celda.number_format = "@"  # que Excel no convierta 16:00 en fecha
         ultima = len(config[tabla]) + 500
         if "Turno" in columnas and turnos and tabla != "bloques":
             letra = "ABCDEFG"[columnas.index("Turno")]
@@ -122,12 +124,15 @@ def _encabezado(ws, titulos, anchos, fila=1) -> None:
 def _lista(ws, rango, opciones, estricta=True) -> None:
     dv = DataValidation(type="list", formula1='"' + ",".join(opciones) + '"', allow_blank=True)
     if not estricta:
-        dv.errorStyle = "warning"
+        dv.errorStyle = "warning"  # permite escribir un turno nuevo
     ws.add_data_validation(dv)
     dv.add(rango)
 
 
+# --- Lectura ------------------------------------------------------------------
+
 def leer_excel(ruta) -> dict:
+    """Lee el libro y devuelve la configuración (mismo formato que guarda la app)."""
     wb = load_workbook(ruta, data_only=True)
     errores: list[str] = []
     config = configuracion_vacia()

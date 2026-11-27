@@ -1,0 +1,2159 @@
+{
+  "nombre": "sintética g10x10 s10 semilla 100",
+  "parametros_generador": {
+    "dias": 5,
+    "bloques_por_dia": 6,
+    "bloques_curriculares": 10,
+    "materias_por_bloque": 10,
+    "sesiones_por_materia": 2,
+    "secciones_por_profesor": 3,
+    "fraccion_disponible": 0.7,
+    "fraccion_preferida": 0.5,
+    "inscritos_min": 20,
+    "inscritos_max": 40,
+    "salones": 10,
+    "capacidad_min": 25,
+    "capacidad_max": 45,
+    "semilla": 100
+  },
+  "dias": 5,
+  "bloques_por_dia": 6,
+  "salones": [
+    {
+      "id": "S1",
+      "capacidad": 29
+    },
+    {
+      "id": "S2",
+      "capacidad": 39
+    },
+    {
+      "id": "S3",
+      "capacidad": 39
+    },
+    {
+      "id": "S4",
+      "capacidad": 30
+    },
+    {
+      "id": "S5",
+      "capacidad": 37
+    },
+    {
+      "id": "S6",
+      "capacidad": 36
+    },
+    {
+      "id": "S7",
+      "capacidad": 38
+    },
+    {
+      "id": "S8",
+      "capacidad": 41
+    },
+    {
+      "id": "S9",
+      "capacidad": 28
+    },
+    {
+      "id": "S10",
+      "capacidad": 42
+    }
+  ],
+  "profesores": [
+    {
+      "id": "P1",
+      "disponibles": [
+        "Lun-3",
+        "Lun-6",
+        "Mar-1",
+        "Mar-2",
+        "Mar-3",
+        "Mar-5",
+        "Mar-6",
+        "Mié-1",
+        "Mié-3",
+        "Mié-4",
+        "Mié-5",
+        "Mié-6",
+        "Jue-1",
+        "Jue-2",
+        "Jue-4",
+        "Jue-5",
+        "Jue-6",
+        "Vie-1",
+        "Vie-3",
+        "Vie-4",
+        "Vie-5"
+      ],
+      "preferidos": [
+        "Lun-6",
+        "Mar-2",
+        "Mar-3",
+        "Mié-4",
+        "Jue-1",
+        "Jue-2",
+        "Jue-6",
+        "Vie-3",
+        "Vie-4",
+        "Vie-5"
+      ]
+    },
+    {
+      "id": "P2",
+      "disponibles": [
+        "Lun-1",
+        "Lun-2",
+        "Lun-3",
+        "Lun-5",
+        "Mar-2",
+        "Mar-6",
+        "Mié-1",
+        "Mié-2",
+        "Mié-3",
+        "Mié-4",
+        "Mié-6",
+        "Jue-2",
+        "Jue-4",
+        "Jue-5",
+        "Jue-6",
+        "Vie-1",
+        "Vie-2",
+        "Vie-3",
+        "Vie-4",
+        "Vie-5",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Mar-2",
+        "Mar-6",
+        "Mié-1",
+        "Mié-4",
+        "Jue-2",
+        "Vie-1",
+        "Vie-3",
+        "Vie-4",
+        "Vie-5",
+        "Vie-6"
+      ]
+    },
+    {
+      "id": "P3",
+      "disponibles": [
+        "Lun-1",
+        "Lun-2",
+        "Lun-4",
+        "Mar-2",
+        "Mar-3",
+        "Mar-4",
+        "Mar-5",
+        "Mar-6",
+        "Mié-3",
+        "Mié-4",
+        "Mié-6",
+        "Jue-1",
+        "Jue-3",
+        "Jue-4",
+        "Jue-5",
+        "Jue-6",
+        "Vie-1",
+        "Vie-2",
+        "Vie-3",
+        "Vie-5",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-2",
+        "Lun-4",
+        "Mar-2",
+        "Mar-3",
+        "Mar-6",
+        "Mié-3",
+        "Jue-1",
+        "Jue-4",
+        "Jue-6",
+        "Vie-3"
+      ]
+    },
+    {
+      "id": "P4",
+      "disponibles": [
+        "Lun-1",
+        "Lun-2",
+        "Lun-4",
+        "Lun-6",
+        "Mar-2",
+        "Mar-3",
+        "Mar-5",
+        "Mar-6",
+        "Mié-3",
+        "Mié-5",
+        "Mié-6",
+        "Jue-1",
+        "Jue-2",
+        "Jue-4",
+        "Jue-5",
+        "Jue-6",
+        "Vie-2",
+        "Vie-3",
+        "Vie-4",
+        "Vie-5",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-6",
+        "Mar-3",
+        "Mié-5",
+        "Jue-5",
+        "Jue-6",
+        "Vie-2",
+        "Vie-3",
+        "Vie-4",
+        "Vie-5",
+        "Vie-6"
+      ]
+    },
+    {
+      "id": "P5",
+      "disponibles": [
+        "Lun-1",
+        "Lun-2",
+        "Lun-3",
+        "Lun-5",
+        "Lun-6",
+        "Mar-1",
+        "Mar-2",
+        "Mar-5",
+        "Mié-2",
+        "Mié-4",
+        "Mié-6",
+        "Jue-1",
+        "Jue-2",
+        "Jue-3",
+        "Jue-4",
+        "Jue-5",
+        "Jue-6",
+        "Vie-1",
+        "Vie-3",
+        "Vie-4",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-1",
+        "Lun-2",
+        "Mar-1",
+        "Mar-2",
+        "Mar-5",
+        "Jue-4",
+        "Jue-5",
+        "Jue-6",
+        "Vie-3",
+        "Vie-4"
+      ]
+    },
+    {
+      "id": "P6",
+      "disponibles": [
+        "Lun-1",
+        "Lun-2",
+        "Lun-4",
+        "Lun-5",
+        "Lun-6",
+        "Mar-1",
+        "Mar-3",
+        "Mar-4",
+        "Mar-6",
+        "Mié-1",
+        "Mié-2",
+        "Mié-4",
+        "Mié-6",
+        "Jue-3",
+        "Jue-4",
+        "Jue-5",
+        "Jue-6",
+        "Vie-2",
+        "Vie-3",
+        "Vie-4",
+        "Vie-5"
+      ],
+      "preferidos": [
+        "Lun-2",
+        "Lun-4",
+        "Lun-5",
+        "Mar-1",
+        "Mar-4",
+        "Mié-1",
+        "Mié-4",
+        "Mié-6",
+        "Jue-3",
+        "Vie-2"
+      ]
+    },
+    {
+      "id": "P7",
+      "disponibles": [
+        "Lun-1",
+        "Lun-2",
+        "Lun-3",
+        "Lun-5",
+        "Lun-6",
+        "Mar-1",
+        "Mar-2",
+        "Mar-3",
+        "Mar-4",
+        "Mar-5",
+        "Mar-6",
+        "Mié-1",
+        "Mié-3",
+        "Mié-4",
+        "Mié-5",
+        "Jue-2",
+        "Jue-3",
+        "Jue-4",
+        "Jue-5",
+        "Vie-1",
+        "Vie-4"
+      ],
+      "preferidos": [
+        "Lun-3",
+        "Mar-1",
+        "Mar-5",
+        "Mié-1",
+        "Mié-3",
+        "Mié-4",
+        "Jue-2",
+        "Jue-4",
+        "Jue-5",
+        "Vie-1"
+      ]
+    },
+    {
+      "id": "P8",
+      "disponibles": [
+        "Lun-1",
+        "Lun-2",
+        "Lun-3",
+        "Lun-4",
+        "Lun-5",
+        "Lun-6",
+        "Mar-1",
+        "Mar-2",
+        "Mar-4",
+        "Mar-5",
+        "Mié-1",
+        "Mié-2",
+        "Mié-4",
+        "Mié-5",
+        "Jue-2",
+        "Jue-3",
+        "Jue-4",
+        "Jue-5",
+        "Vie-1",
+        "Vie-4",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-2",
+        "Lun-6",
+        "Mar-4",
+        "Mié-1",
+        "Mié-2",
+        "Mié-4",
+        "Mié-5",
+        "Jue-2",
+        "Jue-3",
+        "Jue-4"
+      ]
+    },
+    {
+      "id": "P9",
+      "disponibles": [
+        "Lun-1",
+        "Lun-2",
+        "Lun-3",
+        "Lun-5",
+        "Lun-6",
+        "Mar-2",
+        "Mar-3",
+        "Mar-4",
+        "Mar-6",
+        "Mié-1",
+        "Mié-2",
+        "Mié-5",
+        "Jue-1",
+        "Jue-2",
+        "Jue-3",
+        "Jue-6",
+        "Vie-2",
+        "Vie-3",
+        "Vie-4",
+        "Vie-5",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-2",
+        "Lun-6",
+        "Mar-4",
+        "Mar-6",
+        "Mié-2",
+        "Jue-2",
+        "Jue-6",
+        "Vie-3",
+        "Vie-5",
+        "Vie-6"
+      ]
+    },
+    {
+      "id": "P10",
+      "disponibles": [
+        "Lun-2",
+        "Lun-3",
+        "Lun-5",
+        "Lun-6",
+        "Mar-1",
+        "Mar-4",
+        "Mar-5",
+        "Mié-1",
+        "Mié-3",
+        "Mié-4",
+        "Mié-5",
+        "Jue-2",
+        "Jue-3",
+        "Jue-4",
+        "Jue-5",
+        "Jue-6",
+        "Vie-1",
+        "Vie-3",
+        "Vie-4",
+        "Vie-5",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-2",
+        "Lun-5",
+        "Mar-1",
+        "Mar-5",
+        "Mié-1",
+        "Jue-2",
+        "Jue-5",
+        "Jue-6",
+        "Vie-5",
+        "Vie-6"
+      ]
+    },
+    {
+      "id": "P11",
+      "disponibles": [
+        "Lun-1",
+        "Lun-2",
+        "Lun-5",
+        "Mar-1",
+        "Mar-4",
+        "Mié-2",
+        "Mié-3",
+        "Mié-4",
+        "Mié-5",
+        "Jue-1",
+        "Jue-2",
+        "Jue-3",
+        "Jue-4",
+        "Jue-5",
+        "Jue-6",
+        "Vie-1",
+        "Vie-2",
+        "Vie-3",
+        "Vie-4",
+        "Vie-5",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Mar-4",
+        "Mié-2",
+        "Mié-3",
+        "Mié-4",
+        "Mié-5",
+        "Jue-5",
+        "Jue-6",
+        "Vie-1",
+        "Vie-5",
+        "Vie-6"
+      ]
+    },
+    {
+      "id": "P12",
+      "disponibles": [
+        "Lun-1",
+        "Lun-2",
+        "Lun-4",
+        "Lun-5",
+        "Mar-1",
+        "Mar-3",
+        "Mié-1",
+        "Mié-2",
+        "Mié-4",
+        "Mié-5",
+        "Mié-6",
+        "Jue-1",
+        "Jue-3",
+        "Jue-4",
+        "Jue-5",
+        "Jue-6",
+        "Vie-1",
+        "Vie-3",
+        "Vie-4",
+        "Vie-5",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-4",
+        "Lun-5",
+        "Mié-2",
+        "Mié-4",
+        "Mié-5",
+        "Jue-1",
+        "Jue-3",
+        "Jue-6",
+        "Vie-1",
+        "Vie-5"
+      ]
+    },
+    {
+      "id": "P13",
+      "disponibles": [
+        "Lun-1",
+        "Lun-3",
+        "Lun-5",
+        "Lun-6",
+        "Mar-2",
+        "Mar-3",
+        "Mar-5",
+        "Mar-6",
+        "Mié-1",
+        "Mié-2",
+        "Mié-4",
+        "Mié-6",
+        "Jue-2",
+        "Jue-3",
+        "Jue-4",
+        "Jue-6",
+        "Vie-1",
+        "Vie-2",
+        "Vie-3",
+        "Vie-4",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-1",
+        "Lun-3",
+        "Mar-2",
+        "Mar-5",
+        "Mié-1",
+        "Mié-6",
+        "Jue-3",
+        "Jue-4",
+        "Jue-6",
+        "Vie-2"
+      ]
+    },
+    {
+      "id": "P14",
+      "disponibles": [
+        "Lun-1",
+        "Lun-2",
+        "Lun-3",
+        "Lun-4",
+        "Lun-6",
+        "Mar-1",
+        "Mar-3",
+        "Mar-4",
+        "Mar-6",
+        "Mié-1",
+        "Mié-2",
+        "Mié-3",
+        "Mié-5",
+        "Mié-6",
+        "Jue-4",
+        "Jue-6",
+        "Vie-1",
+        "Vie-2",
+        "Vie-3",
+        "Vie-5",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Mar-1",
+        "Mar-4",
+        "Mié-1",
+        "Mié-2",
+        "Mié-5",
+        "Jue-4",
+        "Vie-1",
+        "Vie-2",
+        "Vie-5",
+        "Vie-6"
+      ]
+    },
+    {
+      "id": "P15",
+      "disponibles": [
+        "Lun-3",
+        "Lun-4",
+        "Lun-5",
+        "Lun-6",
+        "Mar-1",
+        "Mar-2",
+        "Mar-3",
+        "Mar-4",
+        "Mar-5",
+        "Mié-1",
+        "Mié-2",
+        "Mié-3",
+        "Mié-4",
+        "Mié-5",
+        "Jue-1",
+        "Jue-2",
+        "Jue-3",
+        "Jue-4",
+        "Jue-5",
+        "Vie-3",
+        "Vie-4"
+      ],
+      "preferidos": [
+        "Mar-1",
+        "Mar-4",
+        "Mar-5",
+        "Mié-1",
+        "Mié-2",
+        "Jue-2",
+        "Jue-3",
+        "Jue-4",
+        "Vie-3",
+        "Vie-4"
+      ]
+    },
+    {
+      "id": "P16",
+      "disponibles": [
+        "Lun-1",
+        "Lun-3",
+        "Lun-6",
+        "Mar-1",
+        "Mar-3",
+        "Mar-4",
+        "Mar-5",
+        "Mar-6",
+        "Mié-1",
+        "Mié-2",
+        "Mié-3",
+        "Mié-4",
+        "Mié-5",
+        "Mié-6",
+        "Jue-1",
+        "Jue-2",
+        "Jue-3",
+        "Vie-1",
+        "Vie-2",
+        "Vie-3",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-6",
+        "Mar-1",
+        "Mié-1",
+        "Mié-2",
+        "Mié-4",
+        "Mié-6",
+        "Jue-3",
+        "Vie-1",
+        "Vie-2",
+        "Vie-3"
+      ]
+    },
+    {
+      "id": "P17",
+      "disponibles": [
+        "Lun-2",
+        "Lun-3",
+        "Lun-4",
+        "Lun-5",
+        "Lun-6",
+        "Mar-1",
+        "Mar-2",
+        "Mar-4",
+        "Mar-5",
+        "Mar-6",
+        "Mié-1",
+        "Mié-3",
+        "Mié-4",
+        "Mié-6",
+        "Jue-2",
+        "Jue-4",
+        "Jue-5",
+        "Jue-6",
+        "Vie-3",
+        "Vie-4",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-2",
+        "Lun-3",
+        "Lun-4",
+        "Lun-6",
+        "Mar-4",
+        "Mar-6",
+        "Mié-3",
+        "Jue-6",
+        "Vie-3",
+        "Vie-4"
+      ]
+    },
+    {
+      "id": "P18",
+      "disponibles": [
+        "Lun-1",
+        "Lun-2",
+        "Lun-3",
+        "Lun-4",
+        "Lun-5",
+        "Mar-3",
+        "Mar-4",
+        "Mar-5",
+        "Mar-6",
+        "Mié-2",
+        "Mié-5",
+        "Mié-6",
+        "Jue-1",
+        "Jue-2",
+        "Jue-3",
+        "Jue-4",
+        "Jue-5",
+        "Jue-6",
+        "Vie-1",
+        "Vie-3",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-1",
+        "Lun-2",
+        "Mar-3",
+        "Mié-5",
+        "Mié-6",
+        "Jue-1",
+        "Jue-2",
+        "Jue-3",
+        "Vie-3",
+        "Vie-6"
+      ]
+    },
+    {
+      "id": "P19",
+      "disponibles": [
+        "Lun-1",
+        "Lun-2",
+        "Lun-3",
+        "Mar-1",
+        "Mar-2",
+        "Mar-3",
+        "Mar-4",
+        "Mar-5",
+        "Mié-1",
+        "Mié-3",
+        "Mié-4",
+        "Mié-6",
+        "Jue-2",
+        "Jue-3",
+        "Jue-5",
+        "Jue-6",
+        "Vie-1",
+        "Vie-3",
+        "Vie-4",
+        "Vie-5",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-1",
+        "Lun-3",
+        "Mar-1",
+        "Mar-3",
+        "Mié-1",
+        "Mié-3",
+        "Mié-4",
+        "Jue-2",
+        "Jue-3",
+        "Vie-5"
+      ]
+    },
+    {
+      "id": "P20",
+      "disponibles": [
+        "Lun-1",
+        "Lun-2",
+        "Lun-3",
+        "Lun-4",
+        "Lun-5",
+        "Lun-6",
+        "Mar-1",
+        "Mar-2",
+        "Mar-4",
+        "Mar-5",
+        "Mar-6",
+        "Mié-3",
+        "Mié-5",
+        "Mié-6",
+        "Jue-1",
+        "Jue-2",
+        "Jue-3",
+        "Jue-5",
+        "Vie-1",
+        "Vie-2",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-2",
+        "Lun-5",
+        "Lun-6",
+        "Mar-2",
+        "Mar-6",
+        "Mié-3",
+        "Mié-5",
+        "Jue-1",
+        "Jue-3",
+        "Vie-6"
+      ]
+    },
+    {
+      "id": "P21",
+      "disponibles": [
+        "Lun-1",
+        "Lun-2",
+        "Lun-3",
+        "Lun-4",
+        "Lun-6",
+        "Mar-2",
+        "Mar-3",
+        "Mar-5",
+        "Mié-1",
+        "Mié-3",
+        "Mié-5",
+        "Mié-6",
+        "Jue-1",
+        "Jue-3",
+        "Jue-5",
+        "Jue-6",
+        "Vie-1",
+        "Vie-2",
+        "Vie-4",
+        "Vie-5",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-1",
+        "Lun-4",
+        "Mar-5",
+        "Mié-1",
+        "Mié-3",
+        "Mié-6",
+        "Vie-2",
+        "Vie-4",
+        "Vie-5",
+        "Vie-6"
+      ]
+    },
+    {
+      "id": "P22",
+      "disponibles": [
+        "Lun-2",
+        "Lun-4",
+        "Lun-6",
+        "Mar-1",
+        "Mar-2",
+        "Mar-6",
+        "Mié-1",
+        "Mié-2",
+        "Mié-3",
+        "Mié-4",
+        "Jue-1",
+        "Jue-3",
+        "Jue-4",
+        "Jue-5",
+        "Jue-6",
+        "Vie-1",
+        "Vie-2",
+        "Vie-3",
+        "Vie-4",
+        "Vie-5",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-4",
+        "Lun-6",
+        "Mar-1",
+        "Mié-1",
+        "Mié-3",
+        "Jue-3",
+        "Vie-1",
+        "Vie-2",
+        "Vie-4",
+        "Vie-5"
+      ]
+    },
+    {
+      "id": "P23",
+      "disponibles": [
+        "Lun-1",
+        "Lun-2",
+        "Lun-3",
+        "Lun-6",
+        "Mar-1",
+        "Mar-3",
+        "Mar-4",
+        "Mar-5",
+        "Mié-1",
+        "Mié-2",
+        "Mié-4",
+        "Mié-5",
+        "Mié-6",
+        "Jue-2",
+        "Jue-3",
+        "Jue-4",
+        "Jue-6",
+        "Vie-2",
+        "Vie-3",
+        "Vie-4",
+        "Vie-5"
+      ],
+      "preferidos": [
+        "Lun-1",
+        "Lun-2",
+        "Mar-1",
+        "Mar-3",
+        "Mié-4",
+        "Mié-6",
+        "Jue-4",
+        "Vie-2",
+        "Vie-4",
+        "Vie-5"
+      ]
+    },
+    {
+      "id": "P24",
+      "disponibles": [
+        "Lun-1",
+        "Lun-2",
+        "Lun-3",
+        "Lun-4",
+        "Lun-5",
+        "Lun-6",
+        "Mar-1",
+        "Mar-2",
+        "Mar-3",
+        "Mar-4",
+        "Mar-5",
+        "Mar-6",
+        "Mié-1",
+        "Mié-3",
+        "Mié-6",
+        "Jue-2",
+        "Jue-3",
+        "Jue-4",
+        "Vie-4",
+        "Vie-5",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-1",
+        "Lun-5",
+        "Lun-6",
+        "Mar-1",
+        "Mar-2",
+        "Mar-4",
+        "Mié-3",
+        "Jue-3",
+        "Vie-5",
+        "Vie-6"
+      ]
+    },
+    {
+      "id": "P25",
+      "disponibles": [
+        "Lun-1",
+        "Lun-3",
+        "Lun-4",
+        "Lun-5",
+        "Lun-6",
+        "Mar-1",
+        "Mar-2",
+        "Mar-3",
+        "Mar-4",
+        "Mar-5",
+        "Mar-6",
+        "Mié-1",
+        "Mié-3",
+        "Mié-4",
+        "Mié-6",
+        "Jue-1",
+        "Jue-5",
+        "Vie-1",
+        "Vie-2",
+        "Vie-3",
+        "Vie-5"
+      ],
+      "preferidos": [
+        "Lun-1",
+        "Lun-3",
+        "Lun-5",
+        "Lun-6",
+        "Mar-1",
+        "Mié-4",
+        "Vie-1",
+        "Vie-2",
+        "Vie-3",
+        "Vie-5"
+      ]
+    },
+    {
+      "id": "P26",
+      "disponibles": [
+        "Lun-1",
+        "Lun-3",
+        "Lun-4",
+        "Lun-5",
+        "Mar-1",
+        "Mar-4",
+        "Mar-5",
+        "Mié-1",
+        "Mié-4",
+        "Mié-5",
+        "Mié-6",
+        "Jue-1",
+        "Jue-2",
+        "Jue-4",
+        "Jue-5",
+        "Jue-6",
+        "Vie-2",
+        "Vie-3",
+        "Vie-4",
+        "Vie-5",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-4",
+        "Lun-5",
+        "Mar-4",
+        "Mar-5",
+        "Mié-1",
+        "Mié-5",
+        "Mié-6",
+        "Jue-1",
+        "Jue-2",
+        "Vie-6"
+      ]
+    },
+    {
+      "id": "P27",
+      "disponibles": [
+        "Lun-3",
+        "Lun-4",
+        "Lun-6",
+        "Mar-1",
+        "Mar-2",
+        "Mar-4",
+        "Mar-5",
+        "Mié-1",
+        "Mié-2",
+        "Mié-3",
+        "Mié-4",
+        "Mié-6",
+        "Jue-1",
+        "Jue-2",
+        "Jue-3",
+        "Jue-4",
+        "Jue-5",
+        "Jue-6",
+        "Vie-1",
+        "Vie-2",
+        "Vie-4"
+      ],
+      "preferidos": [
+        "Lun-3",
+        "Lun-4",
+        "Lun-6",
+        "Mar-2",
+        "Mié-2",
+        "Mié-4",
+        "Mié-6",
+        "Jue-4",
+        "Jue-5",
+        "Vie-1"
+      ]
+    },
+    {
+      "id": "P28",
+      "disponibles": [
+        "Lun-1",
+        "Lun-3",
+        "Lun-4",
+        "Lun-5",
+        "Mar-4",
+        "Mar-5",
+        "Mar-6",
+        "Mié-2",
+        "Mié-3",
+        "Mié-5",
+        "Mié-6",
+        "Jue-1",
+        "Jue-2",
+        "Jue-4",
+        "Jue-5",
+        "Jue-6",
+        "Vie-1",
+        "Vie-2",
+        "Vie-4",
+        "Vie-5",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-4",
+        "Lun-5",
+        "Mar-6",
+        "Mié-2",
+        "Mié-5",
+        "Jue-1",
+        "Vie-1",
+        "Vie-2",
+        "Vie-4",
+        "Vie-5"
+      ]
+    },
+    {
+      "id": "P29",
+      "disponibles": [
+        "Lun-2",
+        "Lun-3",
+        "Lun-4",
+        "Lun-5",
+        "Lun-6",
+        "Mar-3",
+        "Mar-4",
+        "Mar-6",
+        "Mié-2",
+        "Mié-3",
+        "Mié-5",
+        "Mié-6",
+        "Jue-3",
+        "Jue-4",
+        "Jue-5",
+        "Jue-6",
+        "Vie-1",
+        "Vie-2",
+        "Vie-3",
+        "Vie-4",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-4",
+        "Lun-5",
+        "Mar-4",
+        "Mar-6",
+        "Mié-2",
+        "Mié-6",
+        "Jue-4",
+        "Jue-6",
+        "Vie-1",
+        "Vie-2"
+      ]
+    },
+    {
+      "id": "P30",
+      "disponibles": [
+        "Lun-1",
+        "Lun-2",
+        "Lun-3",
+        "Lun-4",
+        "Lun-5",
+        "Lun-6",
+        "Mar-1",
+        "Mar-2",
+        "Mar-3",
+        "Mar-5",
+        "Mar-6",
+        "Mié-1",
+        "Mié-4",
+        "Mié-5",
+        "Mié-6",
+        "Jue-1",
+        "Jue-3",
+        "Jue-5",
+        "Vie-1",
+        "Vie-4",
+        "Vie-5"
+      ],
+      "preferidos": [
+        "Lun-2",
+        "Lun-4",
+        "Lun-6",
+        "Mar-2",
+        "Mar-5",
+        "Mié-5",
+        "Mié-6",
+        "Jue-1",
+        "Vie-4",
+        "Vie-5"
+      ]
+    },
+    {
+      "id": "P31",
+      "disponibles": [
+        "Lun-2",
+        "Lun-3",
+        "Lun-4",
+        "Lun-5",
+        "Lun-6",
+        "Mar-1",
+        "Mar-2",
+        "Mar-3",
+        "Mar-4",
+        "Mié-1",
+        "Mié-2",
+        "Mié-3",
+        "Mié-4",
+        "Mié-6",
+        "Jue-2",
+        "Jue-4",
+        "Jue-5",
+        "Vie-3",
+        "Vie-4",
+        "Vie-5",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-3",
+        "Mar-3",
+        "Mié-1",
+        "Mié-3",
+        "Mié-6",
+        "Jue-2",
+        "Jue-4",
+        "Vie-3",
+        "Vie-5",
+        "Vie-6"
+      ]
+    },
+    {
+      "id": "P32",
+      "disponibles": [
+        "Lun-2",
+        "Lun-3",
+        "Lun-4",
+        "Lun-5",
+        "Lun-6",
+        "Mar-1",
+        "Mar-2",
+        "Mar-3",
+        "Mar-4",
+        "Mar-5",
+        "Mar-6",
+        "Mié-1",
+        "Mié-4",
+        "Mié-5",
+        "Mié-6",
+        "Jue-4",
+        "Jue-5",
+        "Vie-1",
+        "Vie-2",
+        "Vie-3",
+        "Vie-5"
+      ],
+      "preferidos": [
+        "Lun-4",
+        "Mar-2",
+        "Mar-3",
+        "Mar-4",
+        "Mar-6",
+        "Mié-1",
+        "Mié-4",
+        "Mié-5",
+        "Jue-5",
+        "Vie-5"
+      ]
+    },
+    {
+      "id": "P33",
+      "disponibles": [
+        "Lun-2",
+        "Lun-3",
+        "Lun-4",
+        "Lun-6",
+        "Mar-1",
+        "Mar-2",
+        "Mar-3",
+        "Mar-5",
+        "Mar-6",
+        "Mié-2",
+        "Mié-4",
+        "Mié-5",
+        "Mié-6",
+        "Jue-1",
+        "Jue-2",
+        "Jue-5",
+        "Jue-6",
+        "Vie-2",
+        "Vie-3",
+        "Vie-4",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-2",
+        "Lun-3",
+        "Mar-3",
+        "Mar-5",
+        "Mar-6",
+        "Mié-2",
+        "Mié-4",
+        "Vie-2",
+        "Vie-3",
+        "Vie-6"
+      ]
+    },
+    {
+      "id": "P34",
+      "disponibles": [
+        "Lun-1",
+        "Lun-2",
+        "Lun-5",
+        "Lun-6",
+        "Mar-3",
+        "Mar-4",
+        "Mar-5",
+        "Mar-6",
+        "Mié-1",
+        "Mié-2",
+        "Mié-3",
+        "Mié-4",
+        "Mié-5",
+        "Mié-6",
+        "Jue-2",
+        "Jue-4",
+        "Jue-5",
+        "Vie-1",
+        "Vie-2",
+        "Vie-5",
+        "Vie-6"
+      ],
+      "preferidos": [
+        "Lun-1",
+        "Lun-5",
+        "Mar-6",
+        "Mié-2",
+        "Mié-5",
+        "Jue-2",
+        "Jue-4",
+        "Jue-5",
+        "Vie-5",
+        "Vie-6"
+      ]
+    }
+  ],
+  "secciones": [
+    {
+      "id": "G1-M1",
+      "materia": "Materia 1",
+      "profesor": "P7",
+      "inscritos": 23,
+      "sesiones": 2,
+      "bloque_curricular": "G1"
+    },
+    {
+      "id": "G1-M2",
+      "materia": "Materia 2",
+      "profesor": "P3",
+      "inscritos": 22,
+      "sesiones": 2,
+      "bloque_curricular": "G1"
+    },
+    {
+      "id": "G1-M3",
+      "materia": "Materia 3",
+      "profesor": "P4",
+      "inscritos": 34,
+      "sesiones": 2,
+      "bloque_curricular": "G1"
+    },
+    {
+      "id": "G1-M4",
+      "materia": "Materia 4",
+      "profesor": "P10",
+      "inscritos": 28,
+      "sesiones": 2,
+      "bloque_curricular": "G1"
+    },
+    {
+      "id": "G1-M5",
+      "materia": "Materia 5",
+      "profesor": "P20",
+      "inscritos": 21,
+      "sesiones": 2,
+      "bloque_curricular": "G1"
+    },
+    {
+      "id": "G1-M6",
+      "materia": "Materia 6",
+      "profesor": "P16",
+      "inscritos": 40,
+      "sesiones": 2,
+      "bloque_curricular": "G1"
+    },
+    {
+      "id": "G1-M7",
+      "materia": "Materia 7",
+      "profesor": "P17",
+      "inscritos": 26,
+      "sesiones": 2,
+      "bloque_curricular": "G1"
+    },
+    {
+      "id": "G1-M8",
+      "materia": "Materia 8",
+      "profesor": "P29",
+      "inscritos": 30,
+      "sesiones": 2,
+      "bloque_curricular": "G1"
+    },
+    {
+      "id": "G1-M9",
+      "materia": "Materia 9",
+      "profesor": "P4",
+      "inscritos": 27,
+      "sesiones": 2,
+      "bloque_curricular": "G1"
+    },
+    {
+      "id": "G1-M10",
+      "materia": "Materia 10",
+      "profesor": "P24",
+      "inscritos": 29,
+      "sesiones": 2,
+      "bloque_curricular": "G1"
+    },
+    {
+      "id": "G2-M1",
+      "materia": "Materia 1",
+      "profesor": "P19",
+      "inscritos": 26,
+      "sesiones": 2,
+      "bloque_curricular": "G2"
+    },
+    {
+      "id": "G2-M2",
+      "materia": "Materia 2",
+      "profesor": "P7",
+      "inscritos": 25,
+      "sesiones": 2,
+      "bloque_curricular": "G2"
+    },
+    {
+      "id": "G2-M3",
+      "materia": "Materia 3",
+      "profesor": "P11",
+      "inscritos": 24,
+      "sesiones": 2,
+      "bloque_curricular": "G2"
+    },
+    {
+      "id": "G2-M4",
+      "materia": "Materia 4",
+      "profesor": "P30",
+      "inscritos": 26,
+      "sesiones": 2,
+      "bloque_curricular": "G2"
+    },
+    {
+      "id": "G2-M5",
+      "materia": "Materia 5",
+      "profesor": "P11",
+      "inscritos": 31,
+      "sesiones": 2,
+      "bloque_curricular": "G2"
+    },
+    {
+      "id": "G2-M6",
+      "materia": "Materia 6",
+      "profesor": "P6",
+      "inscritos": 31,
+      "sesiones": 2,
+      "bloque_curricular": "G2"
+    },
+    {
+      "id": "G2-M7",
+      "materia": "Materia 7",
+      "profesor": "P26",
+      "inscritos": 40,
+      "sesiones": 2,
+      "bloque_curricular": "G2"
+    },
+    {
+      "id": "G2-M8",
+      "materia": "Materia 8",
+      "profesor": "P9",
+      "inscritos": 33,
+      "sesiones": 2,
+      "bloque_curricular": "G2"
+    },
+    {
+      "id": "G2-M9",
+      "materia": "Materia 9",
+      "profesor": "P1",
+      "inscritos": 26,
+      "sesiones": 2,
+      "bloque_curricular": "G2"
+    },
+    {
+      "id": "G2-M10",
+      "materia": "Materia 10",
+      "profesor": "P26",
+      "inscritos": 32,
+      "sesiones": 2,
+      "bloque_curricular": "G2"
+    },
+    {
+      "id": "G3-M1",
+      "materia": "Materia 1",
+      "profesor": "P18",
+      "inscritos": 34,
+      "sesiones": 2,
+      "bloque_curricular": "G3"
+    },
+    {
+      "id": "G3-M2",
+      "materia": "Materia 2",
+      "profesor": "P8",
+      "inscritos": 37,
+      "sesiones": 2,
+      "bloque_curricular": "G3"
+    },
+    {
+      "id": "G3-M3",
+      "materia": "Materia 3",
+      "profesor": "P13",
+      "inscritos": 28,
+      "sesiones": 2,
+      "bloque_curricular": "G3"
+    },
+    {
+      "id": "G3-M4",
+      "materia": "Materia 4",
+      "profesor": "P25",
+      "inscritos": 32,
+      "sesiones": 2,
+      "bloque_curricular": "G3"
+    },
+    {
+      "id": "G3-M5",
+      "materia": "Materia 5",
+      "profesor": "P30",
+      "inscritos": 25,
+      "sesiones": 2,
+      "bloque_curricular": "G3"
+    },
+    {
+      "id": "G3-M6",
+      "materia": "Materia 6",
+      "profesor": "P14",
+      "inscritos": 40,
+      "sesiones": 2,
+      "bloque_curricular": "G3"
+    },
+    {
+      "id": "G3-M7",
+      "materia": "Materia 7",
+      "profesor": "P25",
+      "inscritos": 40,
+      "sesiones": 2,
+      "bloque_curricular": "G3"
+    },
+    {
+      "id": "G3-M8",
+      "materia": "Materia 8",
+      "profesor": "P8",
+      "inscritos": 23,
+      "sesiones": 2,
+      "bloque_curricular": "G3"
+    },
+    {
+      "id": "G3-M9",
+      "materia": "Materia 9",
+      "profesor": "P3",
+      "inscritos": 25,
+      "sesiones": 2,
+      "bloque_curricular": "G3"
+    },
+    {
+      "id": "G3-M10",
+      "materia": "Materia 10",
+      "profesor": "P22",
+      "inscritos": 20,
+      "sesiones": 2,
+      "bloque_curricular": "G3"
+    },
+    {
+      "id": "G4-M1",
+      "materia": "Materia 1",
+      "profesor": "P27",
+      "inscritos": 39,
+      "sesiones": 2,
+      "bloque_curricular": "G4"
+    },
+    {
+      "id": "G4-M2",
+      "materia": "Materia 2",
+      "profesor": "P13",
+      "inscritos": 32,
+      "sesiones": 2,
+      "bloque_curricular": "G4"
+    },
+    {
+      "id": "G4-M3",
+      "materia": "Materia 3",
+      "profesor": "P5",
+      "inscritos": 24,
+      "sesiones": 2,
+      "bloque_curricular": "G4"
+    },
+    {
+      "id": "G4-M4",
+      "materia": "Materia 4",
+      "profesor": "P18",
+      "inscritos": 38,
+      "sesiones": 2,
+      "bloque_curricular": "G4"
+    },
+    {
+      "id": "G4-M5",
+      "materia": "Materia 5",
+      "profesor": "P21",
+      "inscritos": 25,
+      "sesiones": 2,
+      "bloque_curricular": "G4"
+    },
+    {
+      "id": "G4-M6",
+      "materia": "Materia 6",
+      "profesor": "P2",
+      "inscritos": 26,
+      "sesiones": 2,
+      "bloque_curricular": "G4"
+    },
+    {
+      "id": "G4-M7",
+      "materia": "Materia 7",
+      "profesor": "P17",
+      "inscritos": 25,
+      "sesiones": 2,
+      "bloque_curricular": "G4"
+    },
+    {
+      "id": "G4-M8",
+      "materia": "Materia 8",
+      "profesor": "P28",
+      "inscritos": 20,
+      "sesiones": 2,
+      "bloque_curricular": "G4"
+    },
+    {
+      "id": "G4-M9",
+      "materia": "Materia 9",
+      "profesor": "P29",
+      "inscritos": 27,
+      "sesiones": 2,
+      "bloque_curricular": "G4"
+    },
+    {
+      "id": "G4-M10",
+      "materia": "Materia 10",
+      "profesor": "P15",
+      "inscritos": 34,
+      "sesiones": 2,
+      "bloque_curricular": "G4"
+    },
+    {
+      "id": "G5-M1",
+      "materia": "Materia 1",
+      "profesor": "P32",
+      "inscritos": 40,
+      "sesiones": 2,
+      "bloque_curricular": "G5"
+    },
+    {
+      "id": "G5-M2",
+      "materia": "Materia 2",
+      "profesor": "P6",
+      "inscritos": 32,
+      "sesiones": 2,
+      "bloque_curricular": "G5"
+    },
+    {
+      "id": "G5-M3",
+      "materia": "Materia 3",
+      "profesor": "P6",
+      "inscritos": 24,
+      "sesiones": 2,
+      "bloque_curricular": "G5"
+    },
+    {
+      "id": "G5-M4",
+      "materia": "Materia 4",
+      "profesor": "P32",
+      "inscritos": 39,
+      "sesiones": 2,
+      "bloque_curricular": "G5"
+    },
+    {
+      "id": "G5-M5",
+      "materia": "Materia 5",
+      "profesor": "P34",
+      "inscritos": 37,
+      "sesiones": 2,
+      "bloque_curricular": "G5"
+    },
+    {
+      "id": "G5-M6",
+      "materia": "Materia 6",
+      "profesor": "P14",
+      "inscritos": 21,
+      "sesiones": 2,
+      "bloque_curricular": "G5"
+    },
+    {
+      "id": "G5-M7",
+      "materia": "Materia 7",
+      "profesor": "P2",
+      "inscritos": 39,
+      "sesiones": 2,
+      "bloque_curricular": "G5"
+    },
+    {
+      "id": "G5-M8",
+      "materia": "Materia 8",
+      "profesor": "P5",
+      "inscritos": 27,
+      "sesiones": 2,
+      "bloque_curricular": "G5"
+    },
+    {
+      "id": "G5-M9",
+      "materia": "Materia 9",
+      "profesor": "P14",
+      "inscritos": 39,
+      "sesiones": 2,
+      "bloque_curricular": "G5"
+    },
+    {
+      "id": "G5-M10",
+      "materia": "Materia 10",
+      "profesor": "P32",
+      "inscritos": 36,
+      "sesiones": 2,
+      "bloque_curricular": "G5"
+    },
+    {
+      "id": "G6-M1",
+      "materia": "Materia 1",
+      "profesor": "P8",
+      "inscritos": 29,
+      "sesiones": 2,
+      "bloque_curricular": "G6"
+    },
+    {
+      "id": "G6-M2",
+      "materia": "Materia 2",
+      "profesor": "P29",
+      "inscritos": 38,
+      "sesiones": 2,
+      "bloque_curricular": "G6"
+    },
+    {
+      "id": "G6-M3",
+      "materia": "Materia 3",
+      "profesor": "P23",
+      "inscritos": 30,
+      "sesiones": 2,
+      "bloque_curricular": "G6"
+    },
+    {
+      "id": "G6-M4",
+      "materia": "Materia 4",
+      "profesor": "P21",
+      "inscritos": 36,
+      "sesiones": 2,
+      "bloque_curricular": "G6"
+    },
+    {
+      "id": "G6-M5",
+      "materia": "Materia 5",
+      "profesor": "P1",
+      "inscritos": 30,
+      "sesiones": 2,
+      "bloque_curricular": "G6"
+    },
+    {
+      "id": "G6-M6",
+      "materia": "Materia 6",
+      "profesor": "P7",
+      "inscritos": 37,
+      "sesiones": 2,
+      "bloque_curricular": "G6"
+    },
+    {
+      "id": "G6-M7",
+      "materia": "Materia 7",
+      "profesor": "P19",
+      "inscritos": 31,
+      "sesiones": 2,
+      "bloque_curricular": "G6"
+    },
+    {
+      "id": "G6-M8",
+      "materia": "Materia 8",
+      "profesor": "P33",
+      "inscritos": 35,
+      "sesiones": 2,
+      "bloque_curricular": "G6"
+    },
+    {
+      "id": "G6-M9",
+      "materia": "Materia 9",
+      "profesor": "P31",
+      "inscritos": 32,
+      "sesiones": 2,
+      "bloque_curricular": "G6"
+    },
+    {
+      "id": "G6-M10",
+      "materia": "Materia 10",
+      "profesor": "P15",
+      "inscritos": 21,
+      "sesiones": 2,
+      "bloque_curricular": "G6"
+    },
+    {
+      "id": "G7-M1",
+      "materia": "Materia 1",
+      "profesor": "P16",
+      "inscritos": 23,
+      "sesiones": 2,
+      "bloque_curricular": "G7"
+    },
+    {
+      "id": "G7-M2",
+      "materia": "Materia 2",
+      "profesor": "P22",
+      "inscritos": 29,
+      "sesiones": 2,
+      "bloque_curricular": "G7"
+    },
+    {
+      "id": "G7-M3",
+      "materia": "Materia 3",
+      "profesor": "P18",
+      "inscritos": 40,
+      "sesiones": 2,
+      "bloque_curricular": "G7"
+    },
+    {
+      "id": "G7-M4",
+      "materia": "Materia 4",
+      "profesor": "P9",
+      "inscritos": 33,
+      "sesiones": 2,
+      "bloque_curricular": "G7"
+    },
+    {
+      "id": "G7-M5",
+      "materia": "Materia 5",
+      "profesor": "P20",
+      "inscritos": 28,
+      "sesiones": 2,
+      "bloque_curricular": "G7"
+    },
+    {
+      "id": "G7-M6",
+      "materia": "Materia 6",
+      "profesor": "P1",
+      "inscritos": 27,
+      "sesiones": 2,
+      "bloque_curricular": "G7"
+    },
+    {
+      "id": "G7-M7",
+      "materia": "Materia 7",
+      "profesor": "P28",
+      "inscritos": 33,
+      "sesiones": 2,
+      "bloque_curricular": "G7"
+    },
+    {
+      "id": "G7-M8",
+      "materia": "Materia 8",
+      "profesor": "P26",
+      "inscritos": 36,
+      "sesiones": 2,
+      "bloque_curricular": "G7"
+    },
+    {
+      "id": "G7-M9",
+      "materia": "Materia 9",
+      "profesor": "P27",
+      "inscritos": 35,
+      "sesiones": 2,
+      "bloque_curricular": "G7"
+    },
+    {
+      "id": "G7-M10",
+      "materia": "Materia 10",
+      "profesor": "P21",
+      "inscritos": 38,
+      "sesiones": 2,
+      "bloque_curricular": "G7"
+    },
+    {
+      "id": "G8-M1",
+      "materia": "Materia 1",
+      "profesor": "P12",
+      "inscritos": 28,
+      "sesiones": 2,
+      "bloque_curricular": "G8"
+    },
+    {
+      "id": "G8-M2",
+      "materia": "Materia 2",
+      "profesor": "P9",
+      "inscritos": 24,
+      "sesiones": 2,
+      "bloque_curricular": "G8"
+    },
+    {
+      "id": "G8-M3",
+      "materia": "Materia 3",
+      "profesor": "P24",
+      "inscritos": 21,
+      "sesiones": 2,
+      "bloque_curricular": "G8"
+    },
+    {
+      "id": "G8-M4",
+      "materia": "Materia 4",
+      "profesor": "P10",
+      "inscritos": 38,
+      "sesiones": 2,
+      "bloque_curricular": "G8"
+    },
+    {
+      "id": "G8-M5",
+      "materia": "Materia 5",
+      "profesor": "P20",
+      "inscritos": 30,
+      "sesiones": 2,
+      "bloque_curricular": "G8"
+    },
+    {
+      "id": "G8-M6",
+      "materia": "Materia 6",
+      "profesor": "P11",
+      "inscritos": 25,
+      "sesiones": 2,
+      "bloque_curricular": "G8"
+    },
+    {
+      "id": "G8-M7",
+      "materia": "Materia 7",
+      "profesor": "P17",
+      "inscritos": 21,
+      "sesiones": 2,
+      "bloque_curricular": "G8"
+    },
+    {
+      "id": "G8-M8",
+      "materia": "Materia 8",
+      "profesor": "P2",
+      "inscritos": 28,
+      "sesiones": 2,
+      "bloque_curricular": "G8"
+    },
+    {
+      "id": "G8-M9",
+      "materia": "Materia 9",
+      "profesor": "P12",
+      "inscritos": 23,
+      "sesiones": 2,
+      "bloque_curricular": "G8"
+    },
+    {
+      "id": "G8-M10",
+      "materia": "Materia 10",
+      "profesor": "P25",
+      "inscritos": 21,
+      "sesiones": 2,
+      "bloque_curricular": "G8"
+    },
+    {
+      "id": "G9-M1",
+      "materia": "Materia 1",
+      "profesor": "P23",
+      "inscritos": 39,
+      "sesiones": 2,
+      "bloque_curricular": "G9"
+    },
+    {
+      "id": "G9-M2",
+      "materia": "Materia 2",
+      "profesor": "P16",
+      "inscritos": 27,
+      "sesiones": 2,
+      "bloque_curricular": "G9"
+    },
+    {
+      "id": "G9-M3",
+      "materia": "Materia 3",
+      "profesor": "P23",
+      "inscritos": 29,
+      "sesiones": 2,
+      "bloque_curricular": "G9"
+    },
+    {
+      "id": "G9-M4",
+      "materia": "Materia 4",
+      "profesor": "P34",
+      "inscritos": 36,
+      "sesiones": 2,
+      "bloque_curricular": "G9"
+    },
+    {
+      "id": "G9-M5",
+      "materia": "Materia 5",
+      "profesor": "P24",
+      "inscritos": 39,
+      "sesiones": 2,
+      "bloque_curricular": "G9"
+    },
+    {
+      "id": "G9-M6",
+      "materia": "Materia 6",
+      "profesor": "P12",
+      "inscritos": 26,
+      "sesiones": 2,
+      "bloque_curricular": "G9"
+    },
+    {
+      "id": "G9-M7",
+      "materia": "Materia 7",
+      "profesor": "P28",
+      "inscritos": 40,
+      "sesiones": 2,
+      "bloque_curricular": "G9"
+    },
+    {
+      "id": "G9-M8",
+      "materia": "Materia 8",
+      "profesor": "P10",
+      "inscritos": 38,
+      "sesiones": 2,
+      "bloque_curricular": "G9"
+    },
+    {
+      "id": "G9-M9",
+      "materia": "Materia 9",
+      "profesor": "P19",
+      "inscritos": 31,
+      "sesiones": 2,
+      "bloque_curricular": "G9"
+    },
+    {
+      "id": "G9-M10",
+      "materia": "Materia 10",
+      "profesor": "P30",
+      "inscritos": 30,
+      "sesiones": 2,
+      "bloque_curricular": "G9"
+    },
+    {
+      "id": "G10-M1",
+      "materia": "Materia 1",
+      "profesor": "P13",
+      "inscritos": 34,
+      "sesiones": 2,
+      "bloque_curricular": "G10"
+    },
+    {
+      "id": "G10-M2",
+      "materia": "Materia 2",
+      "profesor": "P27",
+      "inscritos": 20,
+      "sesiones": 2,
+      "bloque_curricular": "G10"
+    },
+    {
+      "id": "G10-M3",
+      "materia": "Materia 3",
+      "profesor": "P31",
+      "inscritos": 23,
+      "sesiones": 2,
+      "bloque_curricular": "G10"
+    },
+    {
+      "id": "G10-M4",
+      "materia": "Materia 4",
+      "profesor": "P5",
+      "inscritos": 35,
+      "sesiones": 2,
+      "bloque_curricular": "G10"
+    },
+    {
+      "id": "G10-M5",
+      "materia": "Materia 5",
+      "profesor": "P15",
+      "inscritos": 26,
+      "sesiones": 2,
+      "bloque_curricular": "G10"
+    },
+    {
+      "id": "G10-M6",
+      "materia": "Materia 6",
+      "profesor": "P4",
+      "inscritos": 36,
+      "sesiones": 2,
+      "bloque_curricular": "G10"
+    },
+    {
+      "id": "G10-M7",
+      "materia": "Materia 7",
+      "profesor": "P3",
+      "inscritos": 23,
+      "sesiones": 2,
+      "bloque_curricular": "G10"
+    },
+    {
+      "id": "G10-M8",
+      "materia": "Materia 8",
+      "profesor": "P22",
+      "inscritos": 39,
+      "sesiones": 2,
+      "bloque_curricular": "G10"
+    },
+    {
+      "id": "G10-M9",
+      "materia": "Materia 9",
+      "profesor": "P31",
+      "inscritos": 26,
+      "sesiones": 2,
+      "bloque_curricular": "G10"
+    },
+    {
+      "id": "G10-M10",
+      "materia": "Materia 10",
+      "profesor": "P33",
+      "inscritos": 21,
+      "sesiones": 2,
+      "bloque_curricular": "G10"
+    }
+  ]
+}

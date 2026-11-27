@@ -1,0 +1,215 @@
+{
+  "nombre": "sintética g2x5 s2 semilla 10",
+  "parametros_generador": {
+    "dias": 5,
+    "bloques_por_dia": 6,
+    "bloques_curriculares": 2,
+    "materias_por_bloque": 5,
+    "sesiones_por_materia": 2,
+    "secciones_por_profesor": 2.0,
+    "fraccion_disponible": 1.0,
+    "fraccion_preferida": 0.5,
+    "inscritos_min": 20,
+    "inscritos_max": 40,
+    "salones": 2,
+    "capacidad_min": 25,
+    "capacidad_max": 45,
+    "semilla": 10
+  },
+  "dias": 5,
+  "bloques_por_dia": 6,
+  "salones": [
+    {
+      "id": "S1",
+      "capacidad": 43
+    },
+    {
+      "id": "S2",
+      "capacidad": 26
+    }
+  ],
+  "profesores": [
+    {
+      "id": "P1",
+      "preferidos": [
+        "Lun-5",
+        "Lun-6",
+        "Mar-3",
+        "Mar-4",
+        "Mar-6",
+        "Mié-1",
+        "Mié-2",
+        "Mié-3",
+        "Jue-2",
+        "Jue-3",
+        "Jue-4",
+        "Jue-6",
+        "Vie-3",
+        "Vie-4",
+        "Vie-5"
+      ]
+    },
+    {
+      "id": "P2",
+      "preferidos": [
+        "Lun-1",
+        "Lun-2",
+        "Lun-5",
+        "Mar-1",
+        "Mar-2",
+        "Mar-4",
+        "Mar-6",
+        "Mié-1",
+        "Mié-3",
+        "Jue-1",
+        "Jue-2",
+        "Jue-3",
+        "Vie-1",
+        "Vie-4",
+        "Vie-5"
+      ]
+    },
+    {
+      "id": "P3",
+      "preferidos": [
+        "Lun-3",
+        "Lun-6",
+        "Mar-2",
+        "Mar-5",
+        "Mié-2",
+        "Mié-3",
+        "Mié-4",
+        "Mié-5",
+        "Mié-6",
+        "Jue-1",
+        "Jue-3",
+        "Jue-4",
+        "Vie-2",
+        "Vie-4",
+        "Vie-6"
+      ]
+    },
+    {
+      "id": "P4",
+      "preferidos": [
+        "Lun-2",
+        "Lun-3",
+        "Lun-4",
+        "Lun-5",
+        "Mar-4",
+        "Mar-6",
+        "Mié-1",
+        "Mié-4",
+        "Mié-6",
+        "Jue-1",
+        "Jue-2",
+        "Jue-3",
+        "Jue-4",
+        "Jue-6",
+        "Vie-6"
+      ]
+    },
+    {
+      "id": "P5",
+      "preferidos": [
+        "Lun-4",
+        "Lun-5",
+        "Lun-6",
+        "Mar-1",
+        "Mar-2",
+        "Mar-3",
+        "Mar-6",
+        "Mié-2",
+        "Mié-3",
+        "Mié-5",
+        "Jue-5",
+        "Vie-1",
+        "Vie-2",
+        "Vie-3",
+        "Vie-6"
+      ]
+    }
+  ],
+  "secciones": [
+    {
+      "id": "G1-M1",
+      "materia": "Materia 1",
+      "profesor": "P5",
+      "inscritos": 33,
+      "sesiones": 2,
+      "bloque_curricular": "G1"
+    },
+    {
+      "id": "G1-M2",
+      "materia": "Materia 2",
+      "profesor": "P5",
+      "inscritos": 35,
+      "sesiones": 2,
+      "bloque_curricular": "G1"
+    },
+    {
+      "id": "G1-M3",
+      "materia": "Materia 3",
+      "profesor": "P2",
+      "inscritos": 38,
+      "sesiones": 2,
+      "bloque_curricular": "G1"
+    },
+    {
+      "id": "G1-M4",
+      "materia": "Materia 4",
+      "profesor": "P1",
+      "inscritos": 20,
+      "sesiones": 2,
+      "bloque_curricular": "G1"
+    },
+    {
+      "id": "G1-M5",
+      "materia": "Materia 5",
+      "profesor": "P2",
+      "inscritos": 26,
+      "sesiones": 2,
+      "bloque_curricular": "G1"
+    },
+    {
+      "id": "G2-M1",
+      "materia": "Materia 1",
+      "profesor": "P3",
+      "inscritos": 34,
+      "sesiones": 2,
+      "bloque_curricular": "G2"
+    },
+    {
+      "id": "G2-M2",
+      "materia": "Materia 2",
+      "profesor": "P4",
+      "inscritos": 35,
+      "sesiones": 2,
+      "bloque_curricular": "G2"
+    },
+    {
+      "id": "G2-M3",
+      "materia": "Materia 3",
+      "profesor": "P3",
+      "inscritos": 28,
+      "sesiones": 2,
+      "bloque_curricular": "G2"
+    },
+    {
+      "id": "G2-M4",
+      "materia": "Materia 4",
+      "profesor": "P4",
+      "inscritos": 40,
+      "sesiones": 2,
+      "bloque_curricular": "G2"
+    },
+    {
+      "id": "G2-M5",
+      "materia": "Materia 5",
+      "profesor": "P1",
+      "inscritos": 25,
+      "sesiones": 2,
+      "bloque_curricular": "G2"
+    }
+  ]
+}
